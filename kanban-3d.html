@@ -1,313 +1,15 @@
 <!doctype html>
-<html lang="en-US">
+<html lang="id">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="no-referrer">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>kanban-3d.html</title>
-<style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0;height:100%}body{box-sizing:border-box;padding:0;background:inherit;overflow:hidden}iframe{display:block;width:100%;max-width:none;height:100vh;margin:0;border:0}</style>
-
 </head>
 <body>
-<iframe id="codex-visualization" sandbox="allow-scripts" scrolling="no" referrerpolicy="no-referrer" title="kanban-3d.html" data-srcdoc="&lt;!doctype html&gt;
-&lt;html lang=&quot;en-US&quot;&gt;
-&lt;head&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
-&lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
-&lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; &#x27;wasm-unsafe-eval&#x27; blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src &#x27;unsafe-inline&#x27; blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://persistent.oaistatic.com/plugins/visualize/charts/ https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;&quot;&gt;
-&lt;title&gt;kanban-3d.html&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-&lt;script type=&quot;application/json&quot; id=&quot;codex-visualization-widget-state&quot;&gt;__CODEX_VISUALIZATION_WIDGET_STATE__&lt;/script&gt;
-&lt;script&gt;(() =&gt; {
-  const root = document.documentElement;
-  const mediaQuery = globalThis.matchMedia(&quot;(prefers-color-scheme: dark)&quot;);
-  const apply = Reflect.apply;
-  const isArray = Array.isArray;
-  const hasOwn = Object.hasOwn;
-  const parentWindow = globalThis.parent;
-  const stringify = JSON.stringify;
-  const parse = JSON.parse;
-  const encode = TextEncoder.prototype.encode.bind(new TextEncoder());
-  const initialStateElement = document.getElementById(
-    &quot;codex-visualization-widget-state&quot;,
-  );
-  const initialGlobals = parse(initialStateElement?.textContent ?? &quot;{}&quot;);
-  initialStateElement?.remove();
-  /** @type {Record&lt;string, unknown&gt; | null} */
-  let state = initialGlobals.widgetState ?? null;
-  const statePersistence = initialGlobals.statePersistence ?? &quot;none&quot;;
-  let nextStateRequestId = 0;
-  /** @type {Map&lt;number, { resolve: () =&gt; void; reject: (error: Error) =&gt; void; timeout: ReturnType&lt;typeof globalThis.setTimeout&gt;; serializedState: string }&gt;} */
-  const pendingStateWrites = new Map();
-  const persistenceError = () =&gt;
-    Object.assign(
-      new Error(&quot;The host could not persist the widget state update&quot;),
-      {
-        code: -32000,
-        data: { code: &quot;widget_state_persistence_failed&quot;, retryable: false },
-      },
-    );
-  /**
-   * @param {object} prototype
-   * @param {string} property
-   */
-  const getPrototypeGetter = (prototype, property) =&gt; {
-    // oxlint-disable-next-line typescript/unbound-method -- invoked through captured Reflect.apply
-    const getter = Object.getOwnPropertyDescriptor(prototype, property)?.get;
-    if (getter == null) {
-      throw new Error(`Missing ${property} getter`);
-    }
-    return getter;
-  };
-  const getMessageData = getPrototypeGetter(MessageEvent.prototype, &quot;data&quot;);
-  const getMessagePorts = getPrototypeGetter(MessageEvent.prototype, &quot;ports&quot;);
-  const getMessageSource = getPrototypeGetter(MessageEvent.prototype, &quot;source&quot;);
-  // oxlint-disable-next-line typescript/unbound-method -- captured before the untrusted fragment runs
-  const addHostMessageListener = MessagePort.prototype.addEventListener;
-  // oxlint-disable-next-line typescript/unbound-method -- captured before the untrusted fragment runs
-  const postHostMessage = MessagePort.prototype.postMessage;
-  // oxlint-disable-next-line typescript/unbound-method -- captured before the untrusted fragment runs
-  const startHostPort = MessagePort.prototype.start;
-  // oxlint-disable-next-line typescript/unbound-method -- captured before the untrusted fragment runs
-  const stopMessagePropagation = Event.prototype.stopImmediatePropagation;
-  /** @type {MessagePort | null} */
-  let hostPort = null;
-  const postToHost = (type, payload) =&gt; {
-    if (hostPort != null) {
-      apply(postHostMessage, hostPort, [{ type, ...payload }]);
-    }
-  };
-  const openExternal = ({ href }) =&gt; {
-    if (globalThis.navigator.userActivation?.isActive === true) {
-      postToHost(&quot;open-external&quot;, { href });
-    }
-  };
-  const sendFollowUpMessage = ({ context, prompt, title }) =&gt; {
-    if (globalThis.navigator.userActivation?.isActive === true) {
-      postToHost(&quot;follow-up&quot;, { context, prompt, title });
-    }
-    return Promise.resolve();
-  };
-  /**
-   * @param {Record&lt;string, unknown&gt; | ((previous: Record&lt;string, unknown&gt; | null) =&gt; Record&lt;string, unknown&gt;)} next
-   * @returns {Promise&lt;void&gt;}
-   */
-  const setWidgetState = async (next) =&gt; {
-    const nextState = typeof next === &quot;function&quot; ? next(state) : next;
-    if (
-      nextState == null ||
-      typeof nextState !== &quot;object&quot; ||
-      isArray(nextState)
-    ) {
-      throw new TypeError(&quot;Widget state must be a JSON object&quot;);
-    }
-    const inputState = stringify(
-      nextState,
-      (_key, /** @type {unknown} */ value) =&gt; {
-        if (
-          typeof value === &quot;undefined&quot; ||
-          typeof value === &quot;function&quot; ||
-          typeof value === &quot;symbol&quot; ||
-          (typeof value === &quot;number&quot; &amp;&amp; !Number.isFinite(value))
-        ) {
-          throw new TypeError(&quot;Widget state must be a JSON object&quot;);
-        }
-        return value;
-      },
-    );
-    const parsedState = parse(inputState);
-    if (
-      parsedState == null ||
-      typeof parsedState !== &quot;object&quot; ||
-      isArray(parsedState)
-    ) {
-      throw new TypeError(&quot;Widget state must be a JSON object&quot;);
-    }
-    const storedState = {
-      modelContent: null,
-      privateContent: null,
-      ...parsedState,
-    };
-    const serializedState = stringify(storedState);
-    if (encode(serializedState).length &gt; 16 * 1024) {
-      throw new TypeError(
-        &quot;Widget state must be a JSON object of at most 16 KiB&quot;,
-      );
-    }
-    if (
-      hasOwn(storedState, &quot;imageIds&quot;) &amp;&amp;
-      (!isArray(storedState.imageIds) ||
-        storedState.imageIds.some(
-          (/** @type {unknown} */ id) =&gt; typeof id !== &quot;string&quot;,
-        ))
-    ) {
-      throw new TypeError(&quot;Widget state imageIds must be an array of strings&quot;);
-    }
-    if (storedState.imageIds?.length &gt; 0) {
-      throw Object.assign(
-        new TypeError(&quot;Visualization state does not support image attachments&quot;),
-        { code: -32602, data: { code: &quot;images_unsupported&quot; } },
-      );
-    }
-    state = storedState;
-    globalThis.openai.widgetState = state;
-    globalThis.dispatchEvent(
-      new CustomEvent(&quot;openai:set_globals&quot;, {
-        detail: { globals: { widgetState: state } },
-      }),
-    );
-    if (statePersistence === &quot;none&quot;) {
-      throw persistenceError();
-    }
-    const id = ++nextStateRequestId;
-    return new Promise((resolve, reject) =&gt; {
-      const timeout = globalThis.setTimeout(() =&gt; {
-        pendingStateWrites.delete(id);
-        reject(persistenceError());
-      }, 30_000);
-      pendingStateWrites.set(id, { resolve, reject, timeout, serializedState });
-      postToHost(&quot;widget-state-write&quot;, { id, state: serializedState });
-    });
-  };
-  const syncTheme = () =&gt; {
-    const theme = mediaQuery.matches ? &quot;dark&quot; : &quot;light&quot;;
-    root.dataset.theme = theme;
-    globalThis.openai = {
-      ...globalThis.openai,
-      openExternal,
-      sendFollowUpMessage,
-      setWidgetState,
-      theme,
-      visualizationStyleVariables: {},
-      visualizationTheme: theme,
-      widgetState: state,
-      statePersistence,
-      stateModelContext: &quot;none&quot;,
-    };
-    globalThis.dispatchEvent(
-      new CustomEvent(&quot;openai:set_globals&quot;, {
-        detail: { globals: globalThis.openai },
-      }),
-    );
-  };
-  const sendHeight = () =&gt; {
-    postToHost(&quot;height&quot;, {
-      height: Math.ceil(
-        Math.max(
-          document.body.scrollHeight,
-          document.body.getBoundingClientRect().height,
-        ),
-      ),
-    });
-  };
 
-  globalThis.addEventListener(
-    &quot;message&quot;,
-    (event) =&gt; {
-      const data = apply(getMessageData, event, []);
-      const ports = apply(getMessagePorts, event, []);
-      const source = apply(getMessageSource, event, []);
-      if (
-        hostPort != null ||
-        source !== parentWindow ||
-        typeof data !== &quot;object&quot; ||
-        data?.type !== &quot;codex-visualization-initialize&quot; ||
-        !isArray(ports) ||
-        ports.length !== 1
-      ) {
-        return;
-      }
-      apply(stopMessagePropagation, event, []);
-      const nextHostPort = ports[0];
-      try {
-        apply(addHostMessageListener, nextHostPort, [
-          &quot;message&quot;,
-          (event) =&gt; {
-            const data = apply(getMessageData, event, []);
-            if (typeof data === &quot;object&quot; &amp;&amp; data?.type === &quot;measure&quot;) {
-              sendHeight();
-            } else if (
-              typeof data === &quot;object&quot; &amp;&amp;
-              data?.type === &quot;widget-state-result&quot;
-            ) {
-              /** @type {unknown} */
-              const id = data.id;
-              if (typeof id !== &quot;number&quot;) {
-                return;
-              }
-              const pending = pendingStateWrites.get(id);
-              if (pending != null) {
-                pendingStateWrites.delete(id);
-                globalThis.clearTimeout(pending.timeout);
-                if (data.ok === true) {
-                  pending.resolve();
-                } else {
-                  pending.reject(persistenceError());
-                }
-              }
-            }
-          },
-        ]);
-        apply(startHostPort, nextHostPort, []);
-      } catch {
-        return;
-      }
-      hostPort = nextHostPort;
-      for (const [id, { serializedState }] of pendingStateWrites) {
-        postToHost(&quot;widget-state-write&quot;, { id, state: serializedState });
-      }
-      sendHeight();
-    },
-    { capture: true },
-  );
-  document.currentScript?.remove();
-  mediaQuery.addEventListener(&quot;change&quot;, syncTheme);
-  globalThis.addEventListener(&quot;click&quot;, (event) =&gt; {
-    if (event.defaultPrevented) {
-      return;
-    }
-    let element = null;
-    if (event.target instanceof globalThis.Element) {
-      element = event.target;
-    } else if (event.target instanceof globalThis.Node) {
-      element = event.target.parentElement;
-    }
-    const link = element?.closest(&quot;a[href]&quot;);
-    const href = link?.getAttribute(&quot;href&quot;);
-    if (href == null) {
-      return;
-    }
-    if (href.startsWith(&quot;#&quot;)) {
-      let id;
-      try {
-        id = decodeURIComponent(href.slice(1));
-      } catch {
-        return;
-      }
-      const target = id.length === 0 ? root : document.getElementById(id);
-      if (
-        target == null ||
-        globalThis.navigator.userActivation?.isActive !== true
-      ) {
-        return;
-      }
-      event.preventDefault();
-      postToHost(&quot;scroll-to&quot;, {
-        top: target.getBoundingClientRect().top + globalThis.scrollY,
-      });
-      return;
-    }
-    event.preventDefault();
-    openExternal({ href });
-  });
-  new ResizeObserver(sendHeight).observe(document.body);
-  syncTheme();
-})();
-&lt;/script&gt;
-&lt;style&gt;:root {
+<style>:root {
   color-scheme: light dark;
   background-color: var(
     --background,
@@ -400,11 +102,11 @@
 
   /* Internal implementation variables; not part of the agent contract. */
   --font-sans:
-    -apple-system-body, ui-sans-serif, -apple-system, system-ui, &quot;Segoe UI&quot;,
-    Helvetica, &quot;Apple Color Emoji&quot;, Arial, sans-serif, &quot;Segoe UI Emoji&quot;,
-    &quot;Segoe UI Symbol&quot;;
+    -apple-system-body, ui-sans-serif, -apple-system, system-ui, "Segoe UI",
+    Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji",
+    "Segoe UI Symbol";
   --font-mono:
-    ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;,
+    ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono",
     monospace;
   --font-size-normal: max(11px, var(--font-size-base));
   --font-size-tooltip: calc(var(--font-size-base) - 1px);
@@ -426,7 +128,7 @@
   --radius-2xl: calc(var(--radius) * 2);
   --radius-full: 9999px;
   --shadow-sm: 0 1px 2px -1px rgb(0 0 0 / 8%);
-  --checkmark-image: url(&quot;data:image/svg+xml,%3Csvg xmlns=&#x27;http://www.w3.org/2000/svg&#x27; viewBox=&#x27;0 0 17 17&#x27;%3E%3Cpath d=&#x27;M12.8961 3.64101C13.1297 3.41418 13.4984 3.37523 13.7779 3.56581C14.0571 3.75635 14.1554 4.11331 14.0299 4.41347L13.9615 4.53847L7.71151 13.7045C7.59411 13.8767 7.4063 13.9877 7.19881 14.0072C6.99136 14.0267 6.78564 13.9533 6.63826 13.806L2.88826 10.056L2.79842 9.9457C2.6192 9.67407 2.64927 9.30496 2.88826 9.06581C3.12738 8.82669 3.49647 8.79676 3.76815 8.97597L3.8785 9.06581L7.03084 12.2182L12.8053 3.74941L12.8961 3.64101Z&#x27;/%3E%3C/svg%3E&quot;);
+  --checkmark-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 17 17'%3E%3Cpath d='M12.8961 3.64101C13.1297 3.41418 13.4984 3.37523 13.7779 3.56581C14.0571 3.75635 14.1554 4.11331 14.0299 4.41347L13.9615 4.53847L7.71151 13.7045C7.59411 13.8767 7.4063 13.9877 7.19881 14.0072C6.99136 14.0267 6.78564 13.9533 6.63826 13.806L2.88826 10.056L2.79842 9.9457C2.6192 9.67407 2.64927 9.30496 2.88826 9.06581C3.12738 8.82669 3.49647 8.79676 3.76815 8.97597L3.8785 9.06581L7.03084 12.2182L12.8053 3.74941L12.8961 3.64101Z'/%3E%3C/svg%3E");
 
   /* Legacy aliases; not part of the current agent contract. */
   --viz-bg: transparent;
@@ -441,11 +143,11 @@
   --viz-warning: var(--destructive);
 }
 
-:root[data-theme=&quot;light&quot;] {
+:root[data-theme="light"] {
   color-scheme: light;
 }
 
-:root[data-theme=&quot;dark&quot;] {
+:root[data-theme="dark"] {
   color-scheme: dark;
 }
 
@@ -453,7 +155,7 @@
   box-sizing: border-box;
 }
 
-html &gt; body {
+html > body {
   /* Preserve MCP aliases for older inline renderers without creating :root cycles. */
   --color-background-primary: var(
     --background,
@@ -604,7 +306,7 @@ pre code {
   padding-inline-end: calc(var(--font-size-base) * 1.5);
 }
 
-.table-responsive &gt; .table :is(th, td) {
+.table-responsive > .table :is(th, td) {
   overflow-wrap: break-word;
 }
 
@@ -637,12 +339,12 @@ pre code {
   padding-inline-end: 16px;
 }
 
-.table :is(.text-end, [align=&quot;right&quot;]) {
+.table :is(.text-end, [align="right"]) {
   text-align: end;
   font-variant-numeric: tabular-nums;
 }
 
-.table :is(.text-center, [align=&quot;center&quot;]) {
+.table :is(.text-center, [align="center"]) {
   text-align: center;
 }
 
@@ -681,7 +383,7 @@ pre code {
   background: var(--background);
 }
 
-#widget &gt; :not(.card, .widget, .progress) {
+#widget > :not(.card, .widget, .progress) {
   width: 100% !important;
   max-width: none !important;
   margin: 0 !important;
@@ -839,7 +541,7 @@ small,
   gap: 8px;
 }
 
-.viz-controls &gt; .form-label {
+.viz-controls > .form-label {
   display: grid;
   min-width: min(100%, 260px);
   flex: 1 1 280px;
@@ -849,7 +551,7 @@ small,
   margin-bottom: 0;
 }
 
-.viz-controls &gt; .form-label &gt; :is(.form-control, .form-range, .form-select) {
+.viz-controls > .form-label > :is(.form-control, .form-range, .form-select) {
   grid-column: 1 / -1;
 }
 
@@ -934,7 +636,7 @@ a.btn {
   );
 }
 
-.nav-link:not(:disabled):not([aria-disabled=&quot;true&quot;]):hover {
+.nav-link:not(:disabled):not([aria-disabled="true"]):hover {
   background: color-mix(in srgb, var(--foreground) 10%, transparent);
 }
 
@@ -1002,16 +704,16 @@ a.btn {
   min-width: 0;
 }
 
-.viz-carousel:has(&gt; .viz-carousel-controls) {
+.viz-carousel:has(> .viz-carousel-controls) {
   min-height: calc(60px + var(--viz-carousel-picker-height, 0px));
   padding-bottom: 60px;
 }
 
-.viz-carousel &gt; [data-variant][hidden] {
+.viz-carousel > [data-variant][hidden] {
   display: none !important;
 }
 
-.viz-carousel &gt; [data-variant] {
+.viz-carousel > [data-variant] {
   isolation: isolate;
 }
 
@@ -1026,7 +728,7 @@ a.btn {
   left: 50%;
   display: flex;
   width: max-content;
-  /* Leave room for the host&#x27;s design-controls launcher at the trailing edge. */
+  /* Leave room for the host's design-controls launcher at the trailing edge. */
   max-width: calc(100% - 96px);
   align-items: center;
   gap: 0;
@@ -1046,7 +748,7 @@ a.btn {
 
 /* Keep authored mockup button styles out of the shared carousel chrome. */
 .viz-carousel-controls button,
-.viz-carousel-picker &gt; summary {
+.viz-carousel-picker > summary {
   display: flex !important;
   height: auto !important;
   min-height: 30px;
@@ -1063,19 +765,19 @@ a.btn {
   -webkit-tap-highlight-color: transparent;
 }
 
-.viz-carousel-controls &gt; button,
-.viz-carousel-picker &gt; summary {
+.viz-carousel-controls > button,
+.viz-carousel-picker > summary {
   position: relative;
   isolation: isolate;
 }
 
-.viz-carousel-controls &gt; button {
+.viz-carousel-controls > button {
   --icon-size: 16px;
   width: 30px !important;
   padding: 0 !important;
 }
 
-.viz-carousel-picker &gt; summary {
+.viz-carousel-picker > summary {
   padding-inline: 12px !important;
 }
 
@@ -1088,28 +790,28 @@ a.btn {
   transform: rotate(180deg);
 }
 
-.viz-carousel-controls &gt; button &gt; svg,
+.viz-carousel-controls > button > svg,
 .viz-carousel-controls .viz-carousel-caret,
 .viz-carousel-count {
   opacity: 0.5;
 }
 
-.viz-carousel-controls &gt; button::before,
-.viz-carousel-picker &gt; summary::before {
+.viz-carousel-controls > button::before,
+.viz-carousel-picker > summary::before {
   position: absolute;
   z-index: -1;
   inset: 3px;
   border-radius: 12px;
-  content: &quot;&quot;;
+  content: "";
   pointer-events: none;
 }
 
-.viz-carousel-controls &gt; button:hover::before,
-.viz-carousel-picker &gt; summary:hover::before {
+.viz-carousel-controls > button:hover::before,
+.viz-carousel-picker > summary:hover::before {
   background: var(--viz-carousel-hover);
 }
 
-.viz-carousel-controls &gt; button,
+.viz-carousel-controls > button,
 .viz-carousel-controls [data-lucide],
 .viz-carousel-controls .lucide {
   flex-shrink: 0;
@@ -1119,12 +821,12 @@ a.btn {
   min-width: 0;
 }
 
-.viz-carousel-picker &gt; summary {
+.viz-carousel-picker > summary {
   min-width: 0;
   list-style: none;
 }
 
-.viz-carousel-picker &gt; summary::-webkit-details-marker {
+.viz-carousel-picker > summary::-webkit-details-marker {
   display: none;
 }
 
@@ -1157,7 +859,7 @@ a.btn {
   box-shadow: 0 4px 12px light-dark(rgb(0 0 0 / 6%), rgb(0 0 0 / 25%));
 }
 
-.viz-carousel-options &gt; button {
+.viz-carousel-options > button {
   border-radius: max(0px, calc(var(--radius-lg) - 5px)) !important;
   width: 100% !important;
   min-height: 28px;
@@ -1169,14 +871,14 @@ a.btn {
   overflow-wrap: anywhere;
 }
 
-.viz-carousel-options &gt; [aria-current=&quot;true&quot;],
-.viz-carousel-options &gt; button:hover {
+.viz-carousel-options > [aria-current="true"],
+.viz-carousel-options > button:hover {
   background: var(--viz-carousel-hover) !important;
 }
 
 .btn:disabled,
 .nav-link:disabled,
-.nav-link[aria-disabled=&quot;true&quot;] {
+.nav-link[aria-disabled="true"] {
   cursor: not-allowed;
   opacity: 0.4;
 }
@@ -1212,22 +914,22 @@ a.btn {
   line-height: 1.4285714286;
 }
 .form-control:is(
-  [type=&quot;file&quot;],
-  [type=&quot;date&quot;],
-  [type=&quot;datetime-local&quot;],
-  [type=&quot;month&quot;],
-  [type=&quot;week&quot;],
-  [type=&quot;color&quot;]
+  [type="file"],
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="week"],
+  [type="color"]
 ) {
   height: calc(12px + 2 * var(--control-spacing, 12px));
   min-height: calc(12px + 2 * var(--control-spacing, 12px));
   line-height: 18px;
 }
 .form-control:is(
-  [type=&quot;date&quot;],
-  [type=&quot;datetime-local&quot;],
-  [type=&quot;month&quot;],
-  [type=&quot;week&quot;]
+  [type="date"],
+  [type="datetime-local"],
+  [type="month"],
+  [type="week"]
 ) {
   padding-inline: var(--control-spacing, 12px);
 }
@@ -1236,13 +938,13 @@ a.btn {
   color: var(--muted-foreground);
 }
 
-.form-control[type=&quot;file&quot;] {
+.form-control[type="file"] {
   overflow: hidden;
   cursor: var(--cursor-interaction, pointer);
   padding: 0;
 }
 
-.form-control[type=&quot;file&quot;]::file-selector-button {
+.form-control[type="file"]::file-selector-button {
   padding: 0 8px;
   border: 0;
   border-right: 1px solid var(--input);
@@ -1255,22 +957,22 @@ a.btn {
   margin-inline-end: var(--control-spacing, 12px);
 }
 
-.form-control[type=&quot;file&quot;]:not(:disabled):hover::file-selector-button {
+.form-control[type="file"]:not(:disabled):hover::file-selector-button {
   background: color-mix(in srgb, var(--foreground) 6%, var(--secondary));
 }
 
-.form-control-color[type=&quot;color&quot;] {
+.form-control-color[type="color"] {
   width: 40px;
   height: calc(12px + 2 * var(--control-spacing, 12px));
   padding: 3px;
   cursor: var(--cursor-interaction, pointer);
 }
 
-.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch-wrapper {
+.form-control-color[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
 }
 
-.form-control-color[type=&quot;color&quot;]::-webkit-color-swatch {
+.form-control-color[type="color"]::-webkit-color-swatch {
   border: 0;
   border-radius: calc(var(--radius-lg) - 4px);
   corner-shape: var(--corner-shape);
@@ -1292,7 +994,7 @@ textarea.form-control {
   background: color-mix(in srgb, var(--foreground) 5%, transparent);
   opacity: 1;
 }
-.form-control[aria-invalid=&quot;true&quot;] {
+.form-control[aria-invalid="true"] {
   border-color: var(--red);
   box-shadow: 0 0 0 2px color-mix(in srgb, var(--red) 20%, transparent);
 }
@@ -1386,7 +1088,7 @@ textarea.form-control {
     box-shadow 150ms;
 }
 
-.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;] {
+.form-check:not(.form-switch) .form-check-input[type="checkbox"] {
   corner-shape: round;
   box-shadow: var(--shadow-sm);
   position: relative;
@@ -1404,23 +1106,23 @@ textarea.form-control {
 }
 
 .form-check:not(.form-switch)
-  .form-check-input[type=&quot;checkbox&quot;]:is(:checked, :indeterminate) {
+  .form-check-input[type="checkbox"]:is(:checked, :indeterminate) {
   border-color: var(--border-strong, var(--input));
   background-color: color-mix(in srgb, var(--popover) 96%, transparent);
 }
 
 .form-check:not(.form-switch)
-  .form-check-input[type=&quot;checkbox&quot;]:checked::before {
+  .form-check-input[type="checkbox"]:checked::before {
   display: block;
   width: 100%;
   height: 100%;
   background: var(--primary-foreground);
-  content: &quot;&quot;;
+  content: "";
   mask: var(--checkmark-image) center / 12px 12px no-repeat;
   background-color: var(--foreground);
 }
 .form-check:not(.form-switch)
-  .form-check-input[type=&quot;checkbox&quot;]:indeterminate::before {
+  .form-check-input[type="checkbox"]:indeterminate::before {
   position: absolute;
   inset: 0;
   display: block;
@@ -1430,10 +1132,10 @@ textarea.form-control {
   border-radius: var(--radius-full);
   background: var(--foreground);
   mask: none;
-  content: &quot;&quot;;
+  content: "";
 }
 
-.form-check-input[type=&quot;radio&quot;] {
+.form-check-input[type="radio"] {
   border-radius: var(--radius-full);
   width: 16px;
   height: 16px;
@@ -1441,7 +1143,7 @@ textarea.form-control {
   box-shadow: inset 0 0 0 1px var(--input);
 }
 
-.form-check-input[type=&quot;radio&quot;]:checked {
+.form-check-input[type="radio"]:checked {
   border: 0;
   background: radial-gradient(
     circle,
@@ -1455,7 +1157,7 @@ textarea.form-control {
   outline: 2px solid var(--ring);
   outline-offset: 2px;
 }
-.form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;]:focus-visible {
+.form-check:not(.form-switch) .form-check-input[type="checkbox"]:focus-visible {
   border-color: var(--ring);
   outline: none;
   box-shadow: 0 0 0 2px var(--ring);
@@ -1469,9 +1171,9 @@ textarea.form-control {
 .form-check:not(.form-switch) .form-check-input:disabled + .form-check-label {
   cursor: not-allowed;
 }
-.form-check:not(.form-switch) .form-check-input[type=&quot;radio&quot;]:disabled,
+.form-check:not(.form-switch) .form-check-input[type="radio"]:disabled,
 .form-check:not(.form-switch)
-  .form-check-input[type=&quot;radio&quot;]:disabled
+  .form-check-input[type="radio"]:disabled
   + .form-check-label {
   opacity: 0.5;
 }
@@ -1508,7 +1210,7 @@ textarea.form-control {
   border: 1px solid light-dark(var(--primary-foreground), var(--foreground));
   border-radius: var(--radius-full);
   box-shadow: var(--shadow-sm);
-  content: &quot;&quot;;
+  content: "";
   transform: translate(2px, -50%);
   transition: transform 200ms cubic-bezier(0, 0, 0.2, 1);
   border-color: #fff;
@@ -1596,8 +1298,8 @@ textarea.form-control {
 }
 
 .btn:not(.btn-primary, .viz-tile):is(
-  [aria-pressed=&quot;true&quot;],
-  [aria-selected=&quot;true&quot;],
+  [aria-pressed="true"],
+  [aria-selected="true"],
   .is-selected
 ) {
   border-color: transparent;
@@ -1605,7 +1307,7 @@ textarea.form-control {
   background: var(--blue);
 }
 
-.btn.viz-tile:is([aria-pressed=&quot;true&quot;], [aria-selected=&quot;true&quot;], .is-selected) {
+.btn.viz-tile:is([aria-pressed="true"], [aria-selected="true"], .is-selected) {
   border-color: var(--primary);
   box-shadow: inset 0 0 0 1px var(--primary);
 }
@@ -1624,7 +1326,7 @@ textarea.form-control {
 
 /* Web recipes are the default, including on renderers without inline style queries. */
 @supports (border-radius: if(style(--corner-shape: round): 1px; else: 2px)) {
-  /* Match the host&#x27;s proportional text-sm scale at every text preference. */
+  /* Match the host's proportional text-sm scale at every text preference. */
   .tooltip,
   .viz-badge,
   .btn,
@@ -1649,7 +1351,7 @@ textarea.form-control {
     );
   }
 
-  .form-check:not(.form-switch) .form-check-input[type=&quot;checkbox&quot;] {
+  .form-check:not(.form-switch) .form-check-input[type="checkbox"] {
     border-radius: if(
       style(--corner-shape: round): calc(var(--radius-sm) / 2);
         else: calc(var(--radius-lg) * 0.4)
@@ -1664,7 +1366,7 @@ textarea.form-control {
 }
 
 @media (pointer: coarse) {
-  .viz-carousel:has(&gt; .viz-carousel-controls) {
+  .viz-carousel:has(> .viz-carousel-controls) {
     min-height: calc(76px + var(--viz-carousel-picker-height, 0px));
     padding-bottom: 76px;
   }
@@ -1672,7 +1374,7 @@ textarea.form-control {
   .btn,
   .nav-link,
   .viz-carousel-controls button,
-  .viz-carousel-picker &gt; summary,
+  .viz-carousel-picker > summary,
   .form-control,
   .form-select {
     min-width: 44px;
@@ -1689,13 +1391,13 @@ textarea.form-control {
     );
   }
   .form-control:is(
-    [type=&quot;file&quot;],
-    [type=&quot;date&quot;],
-    [type=&quot;datetime-local&quot;],
-    [type=&quot;month&quot;],
-    [type=&quot;week&quot;],
-    [type=&quot;time&quot;],
-    [type=&quot;color&quot;]
+    [type="file"],
+    [type="date"],
+    [type="datetime-local"],
+    [type="month"],
+    [type="week"],
+    [type="time"],
+    [type="color"]
   ) {
     height: 44px;
     min-height: 44px;
@@ -1706,22 +1408,22 @@ textarea.form-control {
     );
   }
 
-  .form-control[type=&quot;file&quot;]::file-selector-button {
+  .form-control[type="file"]::file-selector-button {
     min-width: 44px;
     min-height: 44px;
   }
 
-  .form-control-color[type=&quot;color&quot;] {
+  .form-control-color[type="color"] {
     width: 44px;
     height: 44px;
   }
 
   .form-control:is(
-    [type=&quot;date&quot;],
-    [type=&quot;datetime-local&quot;],
-    [type=&quot;month&quot;],
-    [type=&quot;time&quot;],
-    [type=&quot;week&quot;]
+    [type="date"],
+    [type="datetime-local"],
+    [type="month"],
+    [type="time"],
+    [type="week"]
   ) {
     min-width: 0;
     max-width: 100%;
@@ -1743,7 +1445,7 @@ textarea.form-control {
     left: 50%;
     width: 44px;
     height: 44px;
-    content: &quot;&quot;;
+    content: "";
     transform: translate(-50%, -50%);
   }
 
@@ -1766,7 +1468,7 @@ svg {
   height: auto;
 }
 
-#widget &gt; svg {
+#widget > svg {
   width: 100%;
 }
 
@@ -1785,16 +1487,16 @@ svg.lucide {
   color: var(--destructive);
 }
 
-html&gt;body{padding:0}&lt;/style&gt;
-&lt;style id=&quot;codex-visualization-host-theme&quot;&gt;:root {}&lt;/style&gt;
-&lt;script&gt;
-(() =&gt; {
+html>body{padding:0}</style>
+<style id="codex-visualization-host-theme">:root {}</style>
+<script>
+(() => {
   // Host colors are defaults; later authored styles can give the same names
-  // their own meaning (for example, --muted as a chart&#x27;s label color).
-  const hostStyles = document.getElementById(&quot;codex-visualization-host-theme&quot;);
+  // their own meaning (for example, --muted as a chart's label color).
+  const hostStyles = document.getElementById("codex-visualization-host-theme");
   const hostStyle = hostStyles.sheet.cssRules[0].style;
   // Typography, geometry and interaction cursors still follow the host.
-  const styleForProperty = (property) =&gt;
+  const styleForProperty = (property) =>
     /^--(?:font-|radius|corner-shape$|control-spacing$|cursor-interaction$|icon-size$|visualize-paint-gutter$)/.test(property)
       ? document.documentElement.style
       : hostStyle;
@@ -1804,14 +1506,14 @@ html&gt;body{padding:0}&lt;/style&gt;
   if (initialGlobals?.statePersistence != null) {
     globalThis.openai ??= {};
     globalThis.openai.statePersistence = initialGlobals.statePersistence;
-    globalThis.openai.stateModelContext = initialGlobals.stateModelContext ?? &quot;none&quot;;
+    globalThis.openai.stateModelContext = initialGlobals.stateModelContext ?? "none";
   }
   if (!true) {
     return;
   }
   let appliedProperties = [];
-  const applyHostStyleVariables = (styleVariables) =&gt; {
-    if (styleVariables == null || typeof styleVariables !== &quot;object&quot;) {
+  const applyHostStyleVariables = (styleVariables) => {
+    if (styleVariables == null || typeof styleVariables !== "object") {
       return;
     }
     for (const property of appliedProperties) {
@@ -1819,23 +1521,23 @@ html&gt;body{padding:0}&lt;/style&gt;
     }
     appliedProperties = [];
     for (const [property, value] of Object.entries(styleVariables)) {
-      if (property.startsWith(&quot;--&quot;) &amp;&amp; typeof value === &quot;string&quot;) {
+      if (property.startsWith("--") && typeof value === "string") {
         styleForProperty(property).setProperty(property, value);
         appliedProperties.push(property);
       }
     }
   };
 
-  const syncHostStyles = (globals) =&gt; {
+  const syncHostStyles = (globals) => {
     applyHostStyleVariables(globals?.visualizationStyleVariables);
     const sandboxDocument = globalThis.frameElement?.ownerDocument;
-    if (sandboxDocument != null &amp;&amp; globals?.visualizationTheme != null) {
+    if (sandboxDocument != null && globals?.visualizationTheme != null) {
       let colorSchemeMeta = sandboxDocument.querySelector(
-        &#x27;meta[name=&quot;color-scheme&quot;]&#x27;,
+        'meta[name="color-scheme"]',
       );
       if (colorSchemeMeta == null) {
-        colorSchemeMeta = sandboxDocument.createElement(&quot;meta&quot;);
-        colorSchemeMeta.name = &quot;color-scheme&quot;;
+        colorSchemeMeta = sandboxDocument.createElement("meta");
+        colorSchemeMeta.name = "color-scheme";
         sandboxDocument.head.appendChild(colorSchemeMeta);
       }
       colorSchemeMeta.content = globals.visualizationTheme;
@@ -1843,41 +1545,41 @@ html&gt;body{padding:0}&lt;/style&gt;
         globals.visualizationTheme;
       // Paint the host surface behind transparent saved visualization documents.
       sandboxDocument.documentElement.style.backgroundColor =
-        hostStyle.getPropertyValue(&quot;--background&quot;);
+        hostStyle.getPropertyValue("--background");
     }
   };
 
   syncHostStyles(initialGlobals);
-  globalThis.addEventListener(&quot;openai:set_globals&quot;, (event) =&gt; {
+  globalThis.addEventListener("openai:set_globals", (event) => {
     syncHostStyles(event.detail?.globals);
   });
 })();
-&lt;/script&gt;
+</script>
 
 
 
-&lt;div id=&quot;kanban-space&quot;&gt;
-  &lt;h2&gt;Presensi Praktikum · Sprint 2&lt;/h2&gt;
-  &lt;div class=&quot;text-small text-muted kb-lede&quot;&gt;Papan Kanban 3D (Three.js) · geser untuk memutar · gulir/ciut untuk zoom · klik kartu untuk detail&lt;/div&gt;
-  &lt;div class=&quot;viz-controls kb-toolbar&quot; style=&quot;margin-top:16px&quot;&gt;
-    &lt;label class=&quot;form-label&quot;&gt;Tahap sprint&lt;select class=&quot;form-select&quot; id=&quot;kb-phase&quot;&gt;&lt;option value=&quot;0&quot;&gt;Awal sprint&lt;/option&gt;&lt;option value=&quot;1&quot;&gt;Pertengahan sprint&lt;/option&gt;&lt;option value=&quot;2&quot; selected&gt;Akhir sprint&lt;/option&gt;&lt;/select&gt;&lt;/label&gt;
-    &lt;label class=&quot;form-label&quot;&gt;Elevasi kamera &lt;span id=&quot;kb-elev-value&quot;&gt;28°&lt;/span&gt;&lt;input class=&quot;form-range&quot; id=&quot;kb-elev&quot; type=&quot;range&quot; min=&quot;4&quot; max=&quot;70&quot; value=&quot;28&quot; aria-label=&quot;Elevasi kamera 3D&quot;&gt;&lt;/label&gt;
-    &lt;button class=&quot;btn&quot; id=&quot;kb-reset&quot; type=&quot;button&quot;&gt;Reset kamera&lt;/button&gt;
-    &lt;button class=&quot;btn&quot; id=&quot;kb-spin&quot; type=&quot;button&quot; aria-pressed=&quot;false&quot;&gt;Putar otomatis&lt;/button&gt;
-  &lt;/div&gt;
-  &lt;div class=&quot;kb-lanebar&quot; id=&quot;kb-lanebar&quot; hidden role=&quot;tablist&quot; aria-label=&quot;Pilih kolom&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;kb-stage&quot;&gt;
-    &lt;div class=&quot;kb-canvas-wrap&quot; id=&quot;kb-canvas-wrap&quot;&gt;
-      &lt;canvas id=&quot;kb-canvas&quot; tabindex=&quot;0&quot; role=&quot;img&quot; aria-label=&quot;Papan Kanban 3D empat kolom. Tombol panah memutar, tombol kurang dan tambah zoom, Tab memilih kartu, Enter membuka detail.&quot;&gt;&lt;/canvas&gt;
-      &lt;div class=&quot;kb-tip&quot; id=&quot;kb-tip&quot; hidden&gt;&lt;/div&gt;
-      &lt;div class=&quot;kb-loading&quot; id=&quot;kb-loading&quot;&gt;Memuat Three.js…&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;kb-fallback&quot; id=&quot;kb-fallback&quot; hidden aria-label=&quot;Papan Kanban empat kolom&quot;&gt;&lt;/div&gt;
-  &lt;/div&gt;
-  &lt;div id=&quot;kb-detail&quot; class=&quot;card&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;
-  &lt;div class=&quot;sr-only&quot; id=&quot;kb-live&quot; role=&quot;status&quot; aria-live=&quot;polite&quot;&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;style&gt;
+<div id="kanban-space">
+  <h2>Presensi Praktikum · Sprint 2</h2>
+  <div class="text-small text-muted kb-lede">Papan Kanban 3D (Three.js) · geser untuk memutar · gulir/ciut untuk zoom · klik kartu untuk detail</div>
+  <div class="viz-controls kb-toolbar" style="margin-top:16px">
+    <label class="form-label">Tahap sprint<select class="form-select" id="kb-phase"><option value="0">Awal sprint</option><option value="1">Pertengahan sprint</option><option value="2" selected>Akhir sprint</option></select></label>
+    <label class="form-label">Elevasi kamera <span id="kb-elev-value">28°</span><input class="form-range" id="kb-elev" type="range" min="4" max="70" value="28" aria-label="Elevasi kamera 3D"></label>
+    <button class="btn" id="kb-reset" type="button">Reset kamera</button>
+    <button class="btn" id="kb-spin" type="button" aria-pressed="false">Putar otomatis</button>
+  </div>
+  <div class="kb-lanebar" id="kb-lanebar" hidden role="tablist" aria-label="Pilih kolom"></div>
+  <div class="kb-stage">
+    <div class="kb-canvas-wrap" id="kb-canvas-wrap">
+      <canvas id="kb-canvas" tabindex="0" role="img" aria-label="Papan Kanban 3D empat kolom. Tombol panah memutar, tombol kurang dan tambah zoom, Tab memilih kartu, Enter membuka detail."></canvas>
+      <div class="kb-tip" id="kb-tip" hidden></div>
+      <div class="kb-loading" id="kb-loading">Memuat Three.js…</div>
+    </div>
+    <div class="kb-fallback" id="kb-fallback" hidden aria-label="Papan Kanban empat kolom"></div>
+  </div>
+  <div id="kb-detail" class="card" aria-live="polite"></div>
+  <div class="sr-only" id="kb-live" role="status" aria-live="polite"></div>
+</div>
+<style>
 html,body{height:100%;margin:0;overflow:hidden}
 #kanban-space{position:absolute;inset:0;display:flex;flex-direction:column;gap:10px;min-height:0;overflow:hidden;box-sizing:border-box;padding:1rem}
 @media(max-width:619px){
@@ -1885,7 +1587,7 @@ html,body{height:100%;margin:0;overflow:hidden}
   #kanban-space h2{font-size:calc(var(--font-size-base) * 19 / 16);margin:0}
   #kanban-space .kb-lede{font-size:var(--font-size-small);line-height:1.3}
   #kanban-space .kb-toolbar{flex-direction:row;flex-wrap:nowrap;overflow-x:auto;gap:6px;margin-top:0;padding-bottom:2px;scrollbar-width:none}
-  #kanban-space .kb-toolbar&gt;*{flex:0 0 auto}
+  #kanban-space .kb-toolbar>*{flex:0 0 auto}
   #kanban-space .kb-toolbar .form-select,#kanban-space .kb-toolbar .form-range{max-width:150px}
   #kanban-space .kb-toolbar input[type=range]{width:110px}
   #kanban-space .kb-toolbar .btn{padding:6px 10px;font-size:var(--font-size-small)}
@@ -1928,34 +1630,66 @@ html,body{height:100%;margin:0;overflow:hidden}
   #kanban-space #kb-detail{padding:8px 12px}
 }
 @media(prefers-reduced-motion:reduce){#kanban-space .kb-canvas-wrap,#kanban-space #kb-canvas{transition:none}}
-&lt;/style&gt;
-&lt;script&gt;
-(()=&gt;{
-&quot;use strict&quot;;
-const root=document.getElementById(&#x27;kanban-space&#x27;);
-const phaseSel=root.querySelector(&#x27;#kb-phase&#x27;);
-const elevInput=root.querySelector(&#x27;#kb-elev&#x27;);
-const elevValue=root.querySelector(&#x27;#kb-elev-value&#x27;);
-const resetBtn=root.querySelector(&#x27;#kb-reset&#x27;);
-const spinBtn=root.querySelector(&#x27;#kb-spin&#x27;);
-const wrap=root.querySelector(&#x27;#kb-canvas-wrap&#x27;);
-const canvas=root.querySelector(&#x27;#kb-canvas&#x27;);
-const tip=root.querySelector(&#x27;#kb-tip&#x27;);
-const loading=root.querySelector(&#x27;#kb-loading&#x27;);
-const fallback=root.querySelector(&#x27;#kb-fallback&#x27;);
-const detail=root.querySelector(&#x27;#kb-detail&#x27;);
-const live=root.querySelector(&#x27;#kb-live&#x27;);
-const laneBar=root.querySelector(&#x27;#kb-lanebar&#x27;);
-const reduceMotion=window.matchMedia(&#x27;(prefers-reduced-motion: reduce)&#x27;).matches;
 
-const NAMES=[&#x27;Input NIM dan nama&#x27;,&#x27;Pilih hadir/izin/alpa&#x27;,&#x27;Validasi NIM&#x27;,&#x27;Cegah presensi ganda&#x27;,&#x27;Lihat daftar presensi&#x27;,&#x27;Rekap per status&#x27;,&#x27;Simpan data ke CSV&#x27;,&#x27;Cari nama mahasiswa&#x27;,&#x27;Presensi per pertemuan&#x27;,&#x27;Edit status presensi&#x27;];
+/* Responsive exported page: fit the actual browser viewport, including mobile bars. */
+html,body{width:100%;height:100%;overflow:hidden}
+#kanban-space{position:relative;inset:auto;width:100%;height:100vh;height:100dvh;padding:max(12px,env(safe-area-inset-top)) max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left));gap:8px}
+#kanban-space>*{min-width:0}
+#kanban-space .kb-toolbar{display:grid;grid-template-columns:minmax(140px,1fr) minmax(140px,1fr) auto auto;align-items:end;gap:10px;margin-top:0!important;flex-shrink:0;overflow:visible}
+#kanban-space .kb-toolbar .form-label{display:flex;flex-direction:column;gap:4px;margin:0;min-width:0;position:relative}
+#kanban-space .kb-toolbar .form-select{width:100%;max-width:none;min-height:44px;font-size:16px}
+#kanban-space .kb-toolbar .form-range{width:100%;max-width:none;height:44px;margin:0}
+#kanban-space #kb-elev-value{position:absolute;right:0;top:0}
+#kanban-space .kb-toolbar .btn{min-height:44px;white-space:normal}
+#kanban-space .kb-stage{min-height:100px;overflow:hidden}
+#kanban-space #kb-detail{flex-shrink:0;max-height:24%;overflow:auto;margin:0;font-size:13px;line-height:1.4}
+#kanban-space .kb-lanebar{flex-shrink:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:5px;overflow:visible}
+#kanban-space .kb-lanebar[hidden]{display:none}
+#kanban-space .kb-lanebar .btn{min-width:0;min-height:44px;padding:6px 3px;white-space:normal;font-size:12px;line-height:1.2}
+#kanban-space .kb-fallback{width:100%;overflow:auto;align-content:start}
+#kanban-space .kb-canvas-wrap[hidden]{display:none}
+@media(max-width:785px){
+ #kanban-space .kb-toolbar{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:6px 10px}
+ #kanban-space h2{font-size:18px;line-height:1.3}
+ #kanban-space .kb-lede{font-size:12px;line-height:1.35}
+ #kanban-space .kb-toolbar .btn{width:100%;font-size:13px;padding:8px}
+ #kanban-space #kb-detail{max-height:20%;padding:8px 10px}
+ #kanban-space.kb-is-fallback .kb-fallback{grid-template-columns:1fr}
+}
+@media(max-height:500px) and (min-width:620px){
+ #kanban-space{gap:4px;padding:8px}
+ #kanban-space .kb-lede{display:none}
+ #kanban-space .kb-toolbar{grid-template-columns:1fr 1fr auto auto}
+ #kanban-space #kb-detail{max-height:18%;padding:4px 8px}
+}
+</style>
+<script>
+(()=>{
+"use strict";
+const root=document.getElementById('kanban-space');
+const phaseSel=root.querySelector('#kb-phase');
+const elevInput=root.querySelector('#kb-elev');
+const elevValue=root.querySelector('#kb-elev-value');
+const resetBtn=root.querySelector('#kb-reset');
+const spinBtn=root.querySelector('#kb-spin');
+const wrap=root.querySelector('#kb-canvas-wrap');
+const canvas=root.querySelector('#kb-canvas');
+const tip=root.querySelector('#kb-tip');
+const loading=root.querySelector('#kb-loading');
+const fallback=root.querySelector('#kb-fallback');
+const detail=root.querySelector('#kb-detail');
+const live=root.querySelector('#kb-live');
+const laneBar=root.querySelector('#kb-lanebar');
+const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+const NAMES=['Input NIM dan nama','Pilih hadir/izin/alpa','Validasi NIM','Cegah presensi ganda','Lihat daftar presensi','Rekap per status','Simpan data ke CSV','Cari nama mahasiswa','Presensi per pertemuan','Edit status presensi'];
 const POINTS=[3,2,2,2,2,2,3,2,5,3];
-const LANE_TITLES=[&#x27;Backlog&#x27;,&#x27;Dikerjakan&#x27;,&#x27;Review/Uji&#x27;,&#x27;Selesai&#x27;];
-const LANE_NOTES=[&#x27;Sprint berikutnya&#x27;,&#x27;WIP maksimal 2&#x27;,&#x27;WIP maksimal 1&#x27;,&#x27;Sesuai laporan&#x27;];
+const LANE_TITLES=['Backlog','Dikerjakan','Review/Uji','Selesai'];
+const LANE_NOTES=['Sprint berikutnya','WIP maksimal 2','WIP maksimal 1','Sesuai laporan'];
 const NOTES={};
-for(let i=0;i&lt;NAMES.length;i++){
-  NOTES[i+1]=i+1===8?&#x27;. Pencarian sebagian nama, tanpa membedakan kapital. Kata kunci kosong menampilkan semua data.&#x27;
-    :i+1&gt;=9?&#x27;. Belum dipilih untuk Sprint 2.&#x27;:&#x27;. Diselesaikan pada Sprint 1.&#x27;;
+for(let i=0;i<NAMES.length;i++){
+  NOTES[i+1]=i+1===8?'. Pencarian sebagian nama, tanpa membedakan kapital. Kata kunci kosong menampilkan semua data.'
+    :i+1>=9?'. Belum dipilih untuk Sprint 2.':'. Diselesaikan pada Sprint 1.';
 }
 let selectedCard=8;
 let phase=Number(phaseSel.value)||0;
@@ -1967,47 +1701,46 @@ function laneColumns(stage){
 }
 let lastSaved=null;
 function stateSignature(state){
-  const p=state&amp;&amp;state.privateContent;
+  const p=state&&state.privateContent;
   if(!p)return null;
-  return [Number(p.phase),Number(p.chosen),Number(p.elev)].join(&#x27;|&#x27;);
+  return [Number(p.phase),Number(p.chosen),Number(p.elev)].join('|');
 }
 function save(){
   try{
-    if(window.openai&amp;&amp;typeof window.openai.setWidgetState===&#x27;function&#x27;){
-      lastSaved=[phase,selectedCard,Number(elevInput.value)].join(&#x27;|&#x27;);
+    if(window.openai&&typeof window.openai.setWidgetState==='function'){
+      lastSaved=[phase,selectedCard,Number(elevInput.value)].join('|');
       const p=window.openai.setWidgetState({
-        modelContent:{tahap:phaseSel.options[phaseSel.selectedIndex].text,userStory:&#x27;US&#x27;+selectedCard},
+        modelContent:{tahap:phaseSel.options[phaseSel.selectedIndex].text,userStory:'US'+selectedCard},
         privateContent:{phase:phase,chosen:selectedCard,elev:Number(elevInput.value)}
       });
-      if(p&amp;&amp;typeof p.catch===&#x27;function&#x27;)p.catch(()=&gt;{});
+      if(p&&typeof p.catch==='function')p.catch(()=>{});
     }
   }catch(err){}
 }
 function updateDetail(){
-  detail.textContent=&#x27;US&#x27;+selectedCard+&#x27; · &#x27;+NAMES[selectedCard-1]+&#x27; · &#x27;+POINTS[selectedCard-1]+&#x27; story point&#x27;+NOTES[selectedCard];
+  detail.textContent='US'+selectedCard+' · '+NAMES[selectedCard-1]+' · '+POINTS[selectedCard-1]+' story point'+NOTES[selectedCard];
 }
 
 /* ---------- theme palette ---------- */
-const probe=document.createElement(&#x27;canvas&#x27;).getContext(&#x27;2d&#x27;);
+const colorProbe=document.createElement('span');
+colorProbe.style.cssText='position:absolute;visibility:hidden;pointer-events:none';
+document.documentElement.append(colorProbe);
 function cssColor(name,fallbackValue){
-  const raw=getComputedStyle(document.documentElement).getPropertyValue(name).trim();
-  if(!raw)return fallbackValue;
-  probe.fillStyle=&#x27;#000&#x27;;
-  probe.fillStyle=raw;
-  return probe.fillStyle||fallbackValue;
+  colorProbe.style.color='var('+name+', '+fallbackValue+')';
+  return getComputedStyle(colorProbe).color||fallbackValue;
 }
 function palette(){
   return {
-    bg:cssColor(&#x27;--background&#x27;,&#x27;#ffffff&#x27;),
-    fg:cssColor(&#x27;--foreground&#x27;,&#x27;#1a1c1f&#x27;),
-    muted:cssColor(&#x27;--muted-foreground&#x27;,&#x27;#6b7280&#x27;),
-    border:cssColor(&#x27;--border&#x27;,&#x27;rgba(0,0,0,0.12)&#x27;),
-    card:cssColor(&#x27;--card&#x27;,&#x27;#f4f4f5&#x27;),
+    bg:cssColor('--background','#ffffff'),
+    fg:cssColor('--foreground','#1a1c1f'),
+    muted:cssColor('--muted-foreground','#6b7280'),
+    border:cssColor('--border','rgba(0,0,0,0.12)'),
+    card:cssColor('--card','#f4f4f5'),
     lane:[
-      cssColor(&#x27;--viz-series-6&#x27;,&#x27;#3ab9b1&#x27;),
-      cssColor(&#x27;--orange&#x27;,&#x27;#e25507&#x27;),
-      cssColor(&#x27;--purple&#x27;,&#x27;#924ff7&#x27;),
-      cssColor(&#x27;--green&#x27;,&#x27;#00a240&#x27;)
+      cssColor('--viz-series-6','#3ab9b1'),
+      cssColor('--orange','#e25507'),
+      cssColor('--purple','#924ff7'),
+      cssColor('--green','#00a240')
     ]
   };
 }
@@ -2015,8 +1748,8 @@ let PAL=palette();
 const colorCache=new Map();
 function toRgb(css){
   if(colorCache.has(css))return colorCache.get(css);
-  const ctx=document.createElement(&#x27;canvas&#x27;).getContext(&#x27;2d&#x27;);
-  ctx.fillStyle=&#x27;#000&#x27;;
+  const ctx=document.createElement('canvas').getContext('2d');
+  ctx.fillStyle='#000';
   ctx.fillStyle=css;
   ctx.fillRect(0,0,1,1);
   const d=ctx.getImageData(0,0,1,1).data;
@@ -2028,7 +1761,7 @@ function rgb(color){
   const a=toRgb(color);
   return new THREE.Color(a[0],a[1],a[2]);
 }
-const FONT=&#x27;-apple-system, ui-sans-serif, system-ui, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif&#x27;;
+const FONT='-apple-system, ui-sans-serif, system-ui, "Segoe UI", Helvetica, Arial, sans-serif';
 
 /* ---------- canvas textures ---------- */
 function roundRect(ctx,x,y,w,h,r){
@@ -2044,13 +1777,13 @@ function roundRect(ctx,x,y,w,h,r){
 function wrapLines(ctx,text,maxWidth,maxLines){
   const words=String(text).split(/\s+/);
   const lines=[];
-  let line=&#x27;&#x27;;
+  let line='';
   for(const w of words){
-    const test=line?line+&#x27; &#x27;+w:w;
-    if(ctx.measureText(test).width&lt;=maxWidth||line===&#x27;&#x27;)line=test;
-    else{lines.push(line);line=w;if(lines.length&gt;=maxLines-1)break;}
+    const test=line?line+' '+w:w;
+    if(ctx.measureText(test).width<=maxWidth||line==='')line=test;
+    else{lines.push(line);line=w;if(lines.length>=maxLines-1)break;}
   }
-  if(line&amp;&amp;lines.length&lt;maxLines)lines.push(line);
+  if(line&&lines.length<maxLines)lines.push(line);
   return lines;
 }
 const CARD_PX=640;
@@ -2058,15 +1791,15 @@ const HEAD_PX_W=560;
 
 function cardCanvas(id,name,sp,accent,selected){
   const hPx=Math.round(CARD_PX*CARD_H3/CARD_W3);
-  const c=document.createElement(&#x27;canvas&#x27;);
+  const c=document.createElement('canvas');
   c.width=CARD_PX;c.height=hPx;
-  const ctx=c.getContext(&#x27;2d&#x27;);
+  const ctx=c.getContext('2d');
   const sc=hPx/296;
   const w=c.width,h=c.height;
   ctx.clearRect(0,0,w,h);
   const m=Math.round(9*sc);
   ctx.save();
-  ctx.shadowColor=&#x27;rgba(0,0,0,0.22)&#x27;;
+  ctx.shadowColor='rgba(0,0,0,0.22)';
   ctx.shadowBlur=16*sc;
   ctx.shadowOffsetY=5*sc;
   ctx.fillStyle=PAL.card;
@@ -2081,24 +1814,24 @@ function cardCanvas(id,name,sp,accent,selected){
   roundRect(ctx,m*2.2,m*2.6,11*sc,h-m*5.2,5.5*sc);
   ctx.fill();
   const left=m*4.4;
-  ctx.textBaseline=&#x27;alphabetic&#x27;;
-  ctx.textAlign=&#x27;left&#x27;;
+  ctx.textBaseline='alphabetic';
+  ctx.textAlign='left';
   ctx.fillStyle=accent;
-  ctx.font=&#x27;700 &#x27;+Math.round(74*sc)+&#x27;px &#x27;+FONT;
-  ctx.fillText(&#x27;US&#x27;+id,left,86*sc);
-  ctx.textAlign=&#x27;right&#x27;;
+  ctx.font='700 '+Math.round(74*sc)+'px '+FONT;
+  ctx.fillText('US'+id,left,86*sc);
+  ctx.textAlign='right';
   ctx.fillStyle=PAL.muted;
-  ctx.font=&#x27;600 &#x27;+Math.round(40*sc)+&#x27;px &#x27;+FONT;
-  ctx.fillText(sp+&#x27; SP&#x27;,w-m*2.4,84*sc);
-  ctx.textAlign=&#x27;left&#x27;;
+  ctx.font='600 '+Math.round(40*sc)+'px '+FONT;
+  ctx.fillText(sp+' SP',w-m*2.4,84*sc);
+  ctx.textAlign='left';
   ctx.fillStyle=PAL.fg;
-  ctx.font=&#x27;600 &#x27;+Math.round(66*sc)+&#x27;px &#x27;+FONT;
+  ctx.font='600 '+Math.round(66*sc)+'px '+FONT;
   const lines=wrapLines(ctx,name,w-left-m*2.4,2);
   if(lines.length===1){
     ctx.fillText(lines[0],left,h-m*2.6-12*sc);
   }else{
     const base=h-m*2.6-66*sc;
-    lines.forEach((line,k)=&gt;{
+    lines.forEach((line,k)=>{
       ctx.fillText(line,left,base+k*68*sc);
     });
   }
@@ -2106,11 +1839,11 @@ function cardCanvas(id,name,sp,accent,selected){
 }
 const HEAD_H=200;
 function headerCanvas(title,count,note,accent,w){
-  const c=document.createElement(&#x27;canvas&#x27;);
+  const c=document.createElement('canvas');
   w=w||HEAD_PX_W;
   const hPx=Math.round(w*HEAD_H/HEAD_PX_W);
   c.width=w;c.height=hPx;
-  const ctx=c.getContext(&#x27;2d&#x27;);
+  const ctx=c.getContext('2d');
   const sc=hPx/HEAD_H;
   ctx.clearRect(0,0,w,hPx);
   ctx.fillStyle=PAL.card;
@@ -2126,71 +1859,71 @@ function headerCanvas(title,count,note,accent,w){
   const badgeR=34*sc;
   const badgeX=w-badgeR-20*sc;
   const maxW=badgeX-badgeR-20*sc;
-  ctx.textAlign=&#x27;left&#x27;;
-  ctx.textBaseline=&#x27;alphabetic&#x27;;
+  ctx.textAlign='left';
+  ctx.textBaseline='alphabetic';
   ctx.fillStyle=PAL.fg;
   let fs=Math.round(54*sc);
   do{
-    ctx.font=&#x27;700 &#x27;+fs+&#x27;px &#x27;+FONT;
+    ctx.font='700 '+fs+'px '+FONT;
     fs-=2;
-  }while(ctx.measureText(title).width&gt;maxW&amp;&amp;fs&gt;26*sc);
+  }while(ctx.measureText(title).width>maxW&&fs>26*sc);
   ctx.fillText(title,28*sc,96*sc);
   ctx.fillStyle=PAL.muted;
-  ctx.font=&#x27;500 &#x27;+Math.round(32*sc)+&#x27;px &#x27;+FONT;
+  ctx.font='500 '+Math.round(32*sc)+'px '+FONT;
   ctx.fillText(note,28*sc,150*sc);
   ctx.fillStyle=accent;
   ctx.beginPath();
   ctx.arc(badgeX,92*sc,badgeR,0,Math.PI*2);
   ctx.fill();
   ctx.fillStyle=PAL.card;
-  ctx.textAlign=&#x27;center&#x27;;
-  ctx.font=&#x27;700 &#x27;+Math.round(40*sc)+&#x27;px &#x27;+FONT;
+  ctx.textAlign='center';
+  ctx.font='700 '+Math.round(40*sc)+'px '+FONT;
   ctx.fillText(String(count),badgeX,105*sc);
-  ctx.textAlign=&#x27;left&#x27;;
+  ctx.textAlign='left';
   return c;
 }
 
 /* ---------- three.js loader (official ESM build, UMD fallback) ---------- */
 const THREE_MODULES=[
-  &#x27;https://unpkg.com/three@0.160.0/build/three.module.min.js&#x27;,
-  &#x27;https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js&#x27;
+  'https://unpkg.com/three@0.160.0/build/three.module.min.js',
+  'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js'
 ];
 const THREE_SCRIPTS=[
-  &#x27;https://unpkg.com/three@0.160.0/build/three.min.js&#x27;,
-  &#x27;https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js&#x27;
+  'https://unpkg.com/three@0.160.0/build/three.min.js',
+  'https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js'
 ];
 function loadModule(url){
-  return import(url).then(m=&gt;m&amp;&amp;m.WebGLRenderer?m:Promise.reject(new Error(&#x27;modul tidak valid&#x27;)));
+  return import(url).then(m=>m&&m.WebGLRenderer?m:Promise.reject(new Error('modul tidak valid')));
 }
 function loadScript(url){
-  return new Promise((resolve,reject)=&gt;{
-    const s=document.createElement(&#x27;script&#x27;);
+  return new Promise((resolve,reject)=>{
+    const s=document.createElement('script');
     s.src=url;
     s.async=true;
-    s.onload=()=&gt;{(window.THREE&amp;&amp;window.THREE.WebGLRenderer)?resolve(window.THREE):reject(new Error(&#x27;UMD tidak valid&#x27;));};
-    s.onerror=()=&gt;reject(new Error(&#x27;gagal memuat &#x27;+url));
+    s.onload=()=>{(window.THREE&&window.THREE.WebGLRenderer)?resolve(window.THREE):reject(new Error('UMD tidak valid'));};
+    s.onerror=()=>reject(new Error('gagal memuat '+url));
     document.head.appendChild(s);
   });
 }
 function loadThree(){
-  const tryOne=async (kind,url)=&gt;{
-    if(kind===&#x27;module&#x27;){
+  const tryOne=async (kind,url)=>{
+    if(kind==='module'){
       const m=await import(url);
-      if(m&amp;&amp;m.WebGLRenderer)return m;
-      throw new Error(&#x27;modul tanpa WebGLRenderer&#x27;);
+      if(m&&m.WebGLRenderer)return m;
+      throw new Error('modul tanpa WebGLRenderer');
     }
     return loadScript(url);
   };
-  const queue=THREE_MODULES.map(u=&gt;[&#x27;module&#x27;,u]).concat(THREE_SCRIPTS.map(u=&gt;[&#x27;script&#x27;,u]));
-  let chain=Promise.reject(new Error(&#x27;mulai&#x27;));
-  chain.catch(()=&gt;{});
-  for(const [kind,url] of queue)chain=chain.catch(()=&gt;tryOne(kind,url));
+  const queue=THREE_MODULES.map(u=>['module',u]).concat(THREE_SCRIPTS.map(u=>['script',u]));
+  let chain=Promise.reject(new Error('mulai'));
+  chain.catch(()=>{});
+  for(const [kind,url] of queue)chain=chain.catch(()=>tryOne(kind,url));
   return chain;
 }
 function webglAvailable(){
   try{
-    const c=document.createElement(&#x27;canvas&#x27;);
-    return !!(window.WebGLRenderingContext&amp;&amp;(c.getContext(&#x27;webgl2&#x27;)||c.getContext(&#x27;webgl&#x27;)));
+    const c=document.createElement('canvas');
+    return !!(window.WebGLRenderingContext&&(c.getContext('webgl2')||c.getContext('webgl')));
   }catch(err){return false;}
 }
 
@@ -2205,14 +1938,14 @@ let laneGroups=[],meshes=[],pickables=[],arrows=[];
 let targets={theta:-0.24,phi:1.05,zoom:1},current={theta:-0.24,phi:1.05,zoom:1},baseRadius=16;
 let viewTarget={x:0,y:0};
 let baseTarget={x:0,y:0};
-let broadLayout=false,posterOrientation=&#x27;landscape&#x27;,activeLane=0,laneTargetW=0,shadows=false,spin=false,idleFrames=0,dirty=true;
+let broadLayout=false,posterOrientation='landscape',activeLane=3,laneTargetW=0,shadows=false,spin=false,idleFrames=0,dirty=true;
 let hoverCard=null,focusIndex=-1,pointerDownInfo=null;
 const activePointers=new Map();
 let cardState={};
 let contextLost=false,lastFrameTime=0,lastElevSync=-1;
 
 const cards=[];
-for(let i=1;i&lt;=10;i++)cards.push({id:i,name:NAMES[i-1],sp:POINTS[i-1]});
+for(let i=1;i<=10;i++)cards.push({id:i,name:NAMES[i-1],sp:POINTS[i-1]});
 
 /* ---------- board plan ---------- */
 function setScale(){
@@ -2227,15 +1960,15 @@ function setScale(){
 function laneBits(i){
   const ids=laneColumns(phase)[i];
   // phone layout: card columns chosen so the focused lane fills the canvas width
-  let cols=ids.length&gt;4?2:1;
+  let cols=ids.length>4?2:1;
   if(broadLayout){
-    const asp=laneTargetW&gt;0?laneTargetW:1;
+    const asp=laneTargetW>0?laneTargetW:1;
     let best=Infinity;
-    for(let c=1;c&lt;=3;c++){
+    for(let c=1;c<=3;c++){
       const lw=c*(CARD_W3+CARD_XGAP)-CARD_XGAP+0.38;
       const lh=HEAD_H3+HEAD_PAD+(lw*0.94)*HEAD_H/HEAD_PX_W+Math.max(1,Math.ceil(ids.length/c))*(CARD_H3+CARD_GAP)+0.14;
       const score=Math.abs(lw/lh-asp);
-      if(score&lt;best){best=score;cols=c;}
+      if(score<best){best=score;cols=c;}
     }
   }
   const rows=Math.max(1,Math.ceil(ids.length/cols));
@@ -2243,32 +1976,33 @@ function laneBits(i){
   return {i:i,ids:ids,cols:cols,rows:rows,laneW:laneW,headH:(laneW*0.94)*HEAD_H/HEAD_PX_W};
 }
 function defaultPhi(){
-  if(posterOrientation===&#x27;portrait&#x27;||broadLayout)return Math.PI/2-0.42;
+  if(broadLayout)return Math.PI/2-0.10;
+  if(posterOrientation==='portrait')return Math.PI/2-0.18;
   return (Math.PI/2)-(Number(elevInput.value)*Math.PI/180);
 }
 function isPortrait(){
   const w=wrap.clientWidth||1,h=wrap.clientHeight||1;
-  return h/w&gt;1.05;
+  return h/w>1.05;
 }
 function boardPlan(){
   const bits=[0,1,2,3].map(laneBits);
   if(broadLayout){
     // laneBits already picked the column count that matches the canvas aspect
-    const fphs=bits.map(b=&gt;HEAD_H3+HEAD_PAD+b.headH+b.rows*(CARD_H3+CARD_GAP)+0.14);
-    return {bits:bits,phs:fphs,focus:true,maxW:Math.max.apply(null,bits.map(b=&gt;b.laneW)),cy:0};
+    const fphs=bits.map(b=>HEAD_H3+HEAD_PAD+b.headH+b.rows*(CARD_H3+CARD_GAP)+0.14);
+    return {bits:bits,phs:fphs,focus:true,w:bits[activeLane].laneW,h:fphs[activeLane],maxW:Math.max.apply(null,bits.map(b=>b.laneW)),cy:0};
   }
-  const phs=bits.map(b=&gt;HEAD_H3+HEAD_PAD+b.headH+b.rows*(CARD_H3+CARD_GAP)+0.14);
-  if(!broadLayout&amp;&amp;posterOrientation===&#x27;portrait&#x27;){
-    const maxW=Math.max.apply(null,bits.map(b=&gt;b.laneW));
-    bits.forEach(b=&gt;{b.cols=1;b.rows=b.ids.length;});
-    const phs2=bits.map(b=&gt;HEAD_H3+HEAD_PAD+b.headH+b.rows*(CARD_H3+CARD_GAP)+0.14);
-    const totalH=phs2.reduce((a,h)=&gt;a+h,0)+3*LANE_GAP;
+  const phs=bits.map(b=>HEAD_H3+HEAD_PAD+b.headH+b.rows*(CARD_H3+CARD_GAP)+0.14);
+  if(!broadLayout&&posterOrientation==='portrait'){
+    const maxW=Math.max.apply(null,bits.map(b=>b.laneW));
+    bits.forEach(b=>{b.cols=1;b.rows=b.ids.length;});
+    const phs2=bits.map(b=>HEAD_H3+HEAD_PAD+b.headH+b.rows*(CARD_H3+CARD_GAP)+0.14);
+    const totalH=phs2.reduce((a,h)=>a+h,0)+3*LANE_GAP;
     return {bits:bits,phs:phs2,stacked:true,colW:[maxW,maxW],maxW:maxW,totalW:maxW,w:maxW+0.5,h:totalH+0.5,cy:0};
   }
   if(broadLayout){
     const colW=[0,0];
     const rowH=[0,0];
-    bits.forEach((b,k)=&gt;{
+    bits.forEach((b,k)=>{
       const c=k%2,r=Math.floor(k/2);
       colW[c]=Math.max(colW[c],b.laneW);
       rowH[r]=Math.max(rowH[r],phs[k]);
@@ -2278,18 +2012,17 @@ function boardPlan(){
     return {bits:bits,phs:phs,colW:colW,rowH:rowH,maxH:maxH,totalW:totalW,w:totalW+0.5,h:2*maxH+LANE_GAP+0.5,cy:0};
   }
   const maxPh=Math.max.apply(null,phs);
-  const totalW=bits.reduce((a,b)=&gt;a+b.laneW,0)+3*LANE_GAP;
+  const totalW=bits.reduce((a,b)=>a+b.laneW,0)+3*LANE_GAP;
   return {bits:bits,phs:phs,maxPh:maxPh,totalW:totalW,w:totalW+0.5,h:maxPh+0.5,cy:maxPh/2};
 }
 function laneTransform(plan,i){
   const b=plan.bits[i];
   if(plan.focus){
-    const rowStep=Math.max(plan.phs[i]*0.3,1.1);
-    return {x:0,y:-i*rowStep,z:-i*rowStep*1.6};
+    return {x:0,y:0,z:0};
   }
   if(plan.stacked){
     let top=plan.h/2-0.25;
-    for(let k=0;k&lt;i;k++)top-=plan.phs[k]+LANE_GAP;
+    for(let k=0;k<i;k++)top-=plan.phs[k]+LANE_GAP;
     return {x:0,y:top-plan.phs[i]/2};
   }
   if(broadLayout){
@@ -2299,7 +2032,7 @@ function laneTransform(plan,i){
     return {x:x,y:rowBase+plan.phs[i]/2};
   }
   let x=-plan.totalW/2;
-  for(let k=0;k&lt;i;k++)x+=plan.bits[k].laneW+LANE_GAP;
+  for(let k=0;k<i;k++)x+=plan.bits[k].laneW+LANE_GAP;
   return {x:x+b.laneW/2,y:plan.phs[i]/2};
 }
 function makeTexture(cnv){
@@ -2310,18 +2043,18 @@ function makeTexture(cnv){
 }
 function disposeObject(o){
   if(!o)return;
-  o.traverse(n=&gt;{
-    if(n.geometry&amp;&amp;n.geometry.dispose)n.geometry.dispose();
+  o.traverse(n=>{
+    if(n.geometry&&n.geometry.dispose)n.geometry.dispose();
     const m=n.material;
-    if(m)(Array.isArray(m)?m:[m]).forEach(mm=&gt;{
-      if(mm.map&amp;&amp;mm.map.dispose)mm.map.dispose();
+    if(m)(Array.isArray(m)?m:[m]).forEach(mm=>{
+      if(mm.map&&mm.map.dispose)mm.map.dispose();
       if(mm.dispose)mm.dispose();
     });
   });
 }
 function clearBoard(){
-  laneGroups.forEach(g=&gt;{scene.remove(g);disposeObject(g);});
-  arrows.forEach(a=&gt;{scene.remove(a);disposeObject(a);});
+  laneGroups.forEach(g=>{scene.remove(g);disposeObject(g);});
+  arrows.forEach(a=>{scene.remove(a);disposeObject(a);});
   laneGroups=[];
   arrows=[];
   meshes=[];
@@ -2331,14 +2064,14 @@ function clearBoard(){
 function buildBoard(){
   if(!three)return;
   clearBoard();
-  broadLayout=document.documentElement.clientWidth&lt;620;
+  broadLayout=wrap.clientWidth<760;
   const cw=Math.max(120,wrap.clientWidth||360),ch=Math.max(120,wrap.clientHeight||260);
   laneTargetW=cw/ch;
   setScale();
-  posterOrientation=isPortrait()?&#x27;portrait&#x27;:&#x27;landscape&#x27;;
+  posterOrientation=isPortrait()?'portrait':'landscape';
   const P=boardPlan();
 
-  for(let i=0;i&lt;4;i++){
+  for(let i=0;i<4;i++){
     const b=P.bits[i];
     const ph=P.phs[i];
     const laneW=b.laneW;
@@ -2370,7 +2103,7 @@ function buildBoard(){
 
     const firstY=panelTop-0.14-b.headH-0.3-CARD_H3/2;
 
-    b.ids.forEach((id,idx)=&gt;{
+    b.ids.forEach((id,idx)=>{
       const card=cards[id-1];
       const sel=id===selectedCard;
       const row=Math.floor(idx/b.cols);
@@ -2411,15 +2144,15 @@ function buildBoard(){
     laneGroups.push(group);
   }
 
-  if(!broadLayout&amp;&amp;posterOrientation===&#x27;landscape&#x27;){
-    for(let i=0;i&lt;3;i++){
+  if(!broadLayout&&posterOrientation==='landscape'){
+    for(let i=0;i<3;i++){
       const a=new THREE.Mesh(
         new THREE.ConeGeometry(0.08,0.22,4),
         new THREE.MeshStandardMaterial({color:rgb(PAL.muted),roughness:0.6,transparent:true,opacity:0.5})
       );
       const left=P.bits[i];
       let x=-P.totalW/2;
-      for(let k=0;k&lt;i;k++)x+=P.bits[k].laneW+LANE_GAP;
+      for(let k=0;k<i;k++)x+=P.bits[k].laneW+LANE_GAP;
       const cx=x+left.laneW+LANE_GAP/2;
       a.rotation.z=-Math.PI/2;
       a.position.set(cx,0.42,0.4);
@@ -2438,11 +2171,12 @@ function buildBoard(){
   dirty=true;
 }
 function updateScaleForViewport(){
-  const oldW=CARD_W3,oldBroad=broadLayout,oldOrient=posterOrientation;
-  broadLayout=document.documentElement.clientWidth&lt;620;
+  const oldW=CARD_W3,oldBroad=broadLayout,oldOrient=posterOrientation,oldAspect=laneTargetW;
+  laneTargetW=wrap.clientWidth/Math.max(1,wrap.clientHeight);
+  broadLayout=wrap.clientWidth<760;
   setScale();
-  posterOrientation=isPortrait()?&#x27;portrait&#x27;:&#x27;landscape&#x27;;
-  return oldW!==CARD_W3||oldBroad!==broadLayout||oldOrient!==posterOrientation;
+  posterOrientation=isPortrait()?'portrait':'landscape';
+  return oldW!==CARD_W3||oldBroad!==broadLayout||oldOrient!==posterOrientation||(broadLayout&&Math.abs(oldAspect-laneTargetW)>0.02);
 }
 function layoutMetrics(){
   const p=boardPlan();
@@ -2463,13 +2197,13 @@ function fitCamera(keepZoom){
   const aspect=camera.aspect||1;
   const vfov=camera.fov*Math.PI/180;
   const e=frameExtent(aspect);
-  const safeH=isFinite(e.h)&amp;&amp;e.h&gt;0?e.h:6;
-  const safeW=isFinite(e.w)&amp;&amp;e.w&gt;0?e.w:12;
+  const safeH=isFinite(e.h)&&e.h>0?e.h:6;
+  const safeW=isFinite(e.w)&&e.w>0?e.w:12;
   const distH=(safeH/2)/Math.tan(vfov/2);
   const distW=(safeW/2)/(Math.tan(vfov/2)*aspect);
   baseRadius=Math.max(distH,distW);
-  if(!isFinite(baseRadius)||baseRadius&lt;=0)baseRadius=Math.max(safeW,safeH);
-  if(!isFinite(baseRadius)||baseRadius&lt;=0)baseRadius=16;
+  if(!isFinite(baseRadius)||baseRadius<=0)baseRadius=Math.max(safeW,safeH);
+  if(!isFinite(baseRadius)||baseRadius<=0)baseRadius=16;
   viewTarget.x=baseTarget.x;
   viewTarget.y=baseTarget.y;
   if(!keepZoom)targets.zoom=1;
@@ -2493,7 +2227,7 @@ function resize(){
   renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));
   renderer.setSize(w,h,false);
   camera.aspect=w/h;
-  camera.fov=w/h&gt;=1.6?42:w/h&gt;=1?50:58;
+  camera.fov=w/h>=1.6?42:w/h>=1?50:58;
   camera.updateProjectionMatrix();
   const oldOrient=posterOrientation;
   if(updateScaleForViewport()){
@@ -2517,20 +2251,20 @@ function project(object){
 function setHover(mesh,keepFocus){
   if(!keepFocus)focusIndex=-1;
   if(hoverCard===mesh)return;
-  if(hoverCard&amp;&amp;hoverCard.userData.id!==selectedCard)hoverCard.scale.set(1,1,1);
+  if(hoverCard&&hoverCard.userData.id!==selectedCard)hoverCard.scale.set(1,1,1);
   hoverCard=mesh;
   if(hoverCard){
     if(hoverCard.userData.id!==selectedCard)hoverCard.scale.set(1.05,1.05,1);
     tip.hidden=false;
     const id=hoverCard.userData.id;
-    tip.textContent=&#x27;US&#x27;+id+&#x27; · &#x27;+NAMES[id-1]+&#x27; · &#x27;+POINTS[id-1]+&#x27; SP&#x27;;
+    tip.textContent='US'+id+' · '+NAMES[id-1]+' · '+POINTS[id-1]+' SP';
     const p=project(hoverCard);
-    tip.style.left=Math.round(p.x)+&#x27;px&#x27;;
-    tip.style.top=Math.round(p.y)+&#x27;px&#x27;;
-    canvas.classList.add(&#x27;kb-over-card&#x27;);
+    tip.style.left=Math.round(p.x)+'px';
+    tip.style.top=Math.round(p.y)+'px';
+    canvas.classList.add('kb-over-card');
   }else{
     tip.hidden=true;
-    canvas.classList.remove(&#x27;kb-over-card&#x27;);
+    canvas.classList.remove('kb-over-card');
   }
   dirty=true;
 }
@@ -2546,7 +2280,7 @@ function refreshSelection(){
     const map=makeTexture(cardCanvas(cards[id-1].id,cards[id-1].name,cards[id-1].sp,st.accent,sel));
     st.mesh.material[4]=new THREE.MeshBasicMaterial({map:map});
     if(old){
-      if(old.map&amp;&amp;old.map.dispose)old.map.dispose();
+      if(old.map&&old.map.dispose)old.map.dispose();
       if(old.dispose)old.dispose();
     }
   }
@@ -2554,14 +2288,15 @@ function refreshSelection(){
   dirty=true;
 }
 function selectCard(id,announce){
-  if(!(id&gt;=1&amp;&amp;id&lt;=10))return;
+  if(!(id>=1&&id<=10))return;
   selectedCard=id;
-  if(focusMode()&amp;&amp;cardState[id]&amp;&amp;cardState[id].lane!==activeLane){
+  if(focusMode()&&cardState[id]&&cardState[id].lane!==activeLane){
     activeLane=cardState[id].lane;
+    buildBoard();
     renderLaneBar();
   }
   refreshSelection();
-  if(announce!==false)live.textContent=&#x27;Kartu US&#x27;+id+&#x27; &#x27;+NAMES[id-1]+&#x27; dipilih.&#x27;+NOTES[id];
+  if(announce!==false)live.textContent='Kartu US'+id+' '+NAMES[id-1]+' dipilih.'+NOTES[id];
   save();
 }
 function pickAt(clientX,clientY){
@@ -2573,22 +2308,22 @@ function pickAt(clientX,clientY){
   pointerNDC.y=-((clientY-r.top)/r.height)*2+1;
   raycaster.setFromCamera(pointerNDC,camera);
   const hits=raycaster.intersectObjects(pickables,false);
-  for(let i=0;i&lt;hits.length;i++){
+  for(let i=0;i<hits.length;i++){
     const o=hits[i].object;
-    if(o&amp;&amp;o.userData&amp;&amp;o.userData.id)return o;
+    if(o&&o.parent&&o.parent.visible&&o.userData&&o.userData.id)return o;
   }
   return null;
 }
 function onPointerDown(e){
   try{canvas.setPointerCapture(e.pointerId);}catch(err){}
   activePointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
-  if(activePointers.size&gt;=2){
+  if(activePointers.size>=2){
     const pts=[...activePointers.values()];
-    pointerDownInfo={mode:&#x27;pinch&#x27;,dist:Math.max(1,Math.hypot(pts[0].x-pts[1].x,pts[0].y-pts[1].y)),zoom:targets.zoom};
+    pointerDownInfo={mode:'pinch',dist:Math.max(1,Math.hypot(pts[0].x-pts[1].x,pts[0].y-pts[1].y)),zoom:targets.zoom};
   }else{
-    pointerDownInfo={mode:&#x27;orbit&#x27;,x:e.clientX,y:e.clientY,theta:targets.theta,phi:targets.phi,moved:0};
+    pointerDownInfo={mode:'orbit',x:e.clientX,y:e.clientY,theta:targets.theta,phi:targets.phi,moved:0};
   }
-  canvas.classList.add(&#x27;kb-grabbing&#x27;);
+  canvas.classList.add('kb-grabbing');
 }
 function onPointerMove(e){
   if(activePointers.has(e.pointerId))activePointers.set(e.pointerId,{x:e.clientX,y:e.clientY});
@@ -2596,7 +2331,7 @@ function onPointerMove(e){
     setHover(pickAt(e.clientX,e.clientY),false);
     return;
   }
-  if(pointerDownInfo.mode===&#x27;pinch&#x27;&amp;&amp;activePointers.size&gt;=2){
+  if(pointerDownInfo.mode==='pinch'&&activePointers.size>=2){
     const pts=[...activePointers.values()];
     const d=Math.max(1,Math.hypot(pts[0].x-pts[1].x,pts[0].y-pts[1].y));
     targets.zoom=Math.max(0.45,Math.min(2.6,pointerDownInfo.zoom*(pointerDownInfo.dist/d)));
@@ -2606,11 +2341,11 @@ function onPointerMove(e){
   const dx=e.clientX-pointerDownInfo.x;
   const dy=e.clientY-pointerDownInfo.y;
   pointerDownInfo.moved=Math.max(pointerDownInfo.moved,Math.abs(dx)+Math.abs(dy));
-  if(focusMode()&amp;&amp;!pointerDownInfo.swiped&amp;&amp;Math.abs(dx)&gt;Math.abs(dy)*1.4){
+  if(focusMode()&&!pointerDownInfo.swiped&&Math.abs(dx)>Math.abs(dy)*1.4){
     // one lane per gesture: horizontal swipe switches lane instead of orbiting
     const step=Math.max(40,wrap.clientWidth*0.16);
-    if(dx&lt;-step){pointerDownInfo.swiped=true;setActiveLane(Math.min(3,activeLane+1));}
-    else if(dx&gt;step){pointerDownInfo.swiped=true;setActiveLane(Math.max(0,activeLane-1));}
+    if(dx<-step){pointerDownInfo.swiped=true;setActiveLane(Math.min(3,activeLane+1));}
+    else if(dx>step){pointerDownInfo.swiped=true;setActiveLane(Math.max(0,activeLane-1));}
     dirty=true;
     return;
   }
@@ -2620,16 +2355,16 @@ function onPointerMove(e){
 }
 function onPointerUp(e){
   activePointers.delete(e.pointerId);
-  if(pointerDownInfo&amp;&amp;pointerDownInfo.mode===&#x27;orbit&#x27;&amp;&amp;pointerDownInfo.moved&lt;6){
+  if(pointerDownInfo&&pointerDownInfo.mode==='orbit'&&pointerDownInfo.moved<6){
     const hit=pickAt(e.clientX,e.clientY);
     if(hit)selectCard(hit.userData.id);
   }
   if(activePointers.size===0)pointerDownInfo=null;
   else{
     const pts=[...activePointers.values()];
-    pointerDownInfo={mode:&#x27;pinch&#x27;,dist:Math.max(1,Math.hypot(pts[0].x-pts[1].x,pts[0].y-pts[1].y)),zoom:targets.zoom,moved:99};
+    pointerDownInfo={mode:'pinch',dist:Math.max(1,Math.hypot(pts[0].x-pts[1].x,pts[0].y-pts[1].y)),zoom:targets.zoom,moved:99};
   }
-  canvas.classList.remove(&#x27;kb-grabbing&#x27;);
+  canvas.classList.remove('kb-grabbing');
 }
 function onWheel(e){
   e.preventDefault();
@@ -2637,26 +2372,26 @@ function onWheel(e){
   dirty=true;
 }
 function onKeyDown(e){
-  const ids=Object.keys(cardState).map(Number).sort((a,b)=&gt;a-b);
-  if(e.key===&#x27;ArrowLeft&#x27;)targets.theta-=0.14;
-  else if(e.key===&#x27;ArrowRight&#x27;)targets.theta+=0.14;
-  else if(e.key===&#x27;ArrowUp&#x27;)targets.phi=Math.min(Math.PI/2-0.05,targets.phi+0.09);
-  else if(e.key===&#x27;ArrowDown&#x27;)targets.phi=Math.max(0.14,targets.phi-0.09);
-  else if(e.key===&#x27;+&#x27;||e.key===&#x27;=&#x27;)targets.zoom=Math.max(0.45,targets.zoom*0.9);
-  else if(e.key===&#x27;-&#x27;||e.key===&#x27;_&#x27;)targets.zoom=Math.min(2.6,targets.zoom*1.1);
-  else if(e.key===&#x27;Tab&#x27;){
+  const ids=Object.keys(cardState).map(Number).sort((a,b)=>a-b);
+  if(e.key==='ArrowLeft')targets.theta-=0.14;
+  else if(e.key==='ArrowRight')targets.theta+=0.14;
+  else if(e.key==='ArrowUp')targets.phi=Math.min(Math.PI/2-0.05,targets.phi+0.09);
+  else if(e.key==='ArrowDown')targets.phi=Math.max(0.14,targets.phi-0.09);
+  else if(e.key==='+'||e.key==='=')targets.zoom=Math.max(0.45,targets.zoom*0.9);
+  else if(e.key==='-'||e.key==='_')targets.zoom=Math.min(2.6,targets.zoom*1.1);
+  else if(e.key==='Tab'){
     if(!ids.length)return;
     focusIndex=(focusIndex+1)%ids.length;
     const id=ids[focusIndex];
     setHover(cardState[id].mesh,true);
-    live.textContent=&#x27;Kartu US&#x27;+id+&#x27; &#x27;+NAMES[id-1]+&#x27;. Tekan Enter untuk memilih.&#x27;;
+    live.textContent='Kartu US'+id+' '+NAMES[id-1]+'. Tekan Enter untuk memilih.';
     e.preventDefault();
     dirty=true;
     return;
   }
-  else if(e.key===&#x27;Enter&#x27;||e.key===&#x27; &#x27;){
+  else if(e.key==='Enter'||e.key===' '){
     if(!ids.length)return;
-    const id=(focusIndex&gt;=0&amp;&amp;ids[focusIndex])?ids[focusIndex]:selectedCard;
+    const id=(focusIndex>=0&&ids[focusIndex])?ids[focusIndex]:selectedCard;
     setHover(cardState[id].mesh,true);
     selectCard(id);
     e.preventDefault();
@@ -2672,7 +2407,7 @@ function syncElev(force){
   if(force||clamped!==lastElevSync){
     lastElevSync=clamped;
     elevInput.value=String(clamped);
-    elevValue.textContent=clamped+&#x27;°&#x27;;
+    elevValue.textContent=clamped+'°';
   }
 }
 
@@ -2685,13 +2420,13 @@ function tick(now){
   const damp=reduceMotion?1:Math.min(1,dt*9);
   let moving=false;
 
-  if(spin&amp;&amp;!reduceMotion){
+  if(spin&&!reduceMotion){
     targets.theta+=dt*0.25;
     moving=true;
   }
-  for(const k of [&#x27;theta&#x27;,&#x27;phi&#x27;,&#x27;zoom&#x27;]){
+  for(const k of ['theta','phi','zoom']){
     const d=targets[k]-current[k];
-    if(Math.abs(d)&gt;0.0008){
+    if(Math.abs(d)>0.0008){
       current[k]+=d*damp;
       moving=true;
     }else current[k]=targets[k];
@@ -2699,7 +2434,7 @@ function tick(now){
   applyCamera();
   syncElev(false);
 
-  for(let i=0;i&lt;meshes.length;i++){
+  for(let i=0;i<meshes.length;i++){
     const m=meshes[i];
     const sel=m.userData.id===selectedCard;
     let targetY=m.userData.targetY;
@@ -2707,23 +2442,23 @@ function tick(now){
     const targetZ=sel?0.62:0.3;
     const dy=targetY-m.position.y;
     const dz=targetZ-m.position.z;
-    if(Math.abs(dy)&gt;0.0015||Math.abs(dz)&gt;0.0015){
+    if(Math.abs(dy)>0.0015||Math.abs(dz)>0.0015){
       m.position.y+=dy*damp;
       m.position.z+=dz*damp;
       moving=true;
     }
-    if(hoverCard===m&amp;&amp;!reduceMotion)m.rotation.y=Math.sin(t*2)*0.03;
+    if(hoverCard===m&&!reduceMotion)m.rotation.y=Math.sin(t*2)*0.03;
     else if(m.rotation.y!==0)m.rotation.y+=(0-m.rotation.y)*damp;
     const f=m.userData.frame;
-    if(f&amp;&amp;f.visible){
+    if(f&&f.visible){
       f.position.y=m.position.y;
       f.position.z=m.position.z-0.07;
     }
   }
-  if(!tip.hidden&amp;&amp;hoverCard){
+  if(!tip.hidden&&hoverCard){
     const p=project(hoverCard);
-    tip.style.left=Math.round(p.x)+&#x27;px&#x27;;
-    tip.style.top=Math.round(p.y)+&#x27;px&#x27;;
+    tip.style.left=Math.round(p.x)+'px';
+    tip.style.top=Math.round(p.y)+'px';
   }
   if(!moving){
     idleFrames++;
@@ -2762,13 +2497,13 @@ function applyLightColors(){
 function initThree(T){
   three=T;
   window.THREE=T;
-  renderer=new THREE.WebGLRenderer({canvas:canvas,antialias:true,alpha:true,powerPreference:&#x27;high-performance&#x27;});
+  renderer=new THREE.WebGLRenderer({canvas:canvas,antialias:true,alpha:true,powerPreference:'high-performance'});
   renderer.outputColorSpace=THREE.SRGBColorSpace;
   renderer.toneMapping=THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure=1.05;
   scene=new THREE.Scene();
   camera=new THREE.PerspectiveCamera(52,1,0.1,300);
-  shadows=window.innerWidth&gt;=620&amp;&amp;!window.matchMedia(&#x27;(pointer: coarse)&#x27;).matches;
+  shadows=window.innerWidth>=620&&!window.matchMedia('(pointer: coarse)').matches;
   renderer.shadowMap.enabled=shadows;
   renderer.shadowMap.type=THREE.PCFSoftShadowMap;
   raycaster=new THREE.Raycaster();
@@ -2802,29 +2537,29 @@ function initThree(T){
   targets.zoom=current.zoom=1;
   syncElev(true);
 
-  broadLayout=document.documentElement.clientWidth&lt;620;
+  broadLayout=wrap.clientWidth<760;
   setScale();
-  posterOrientation=isPortrait()?&#x27;portrait&#x27;:&#x27;landscape&#x27;;
+  posterOrientation=isPortrait()?'portrait':'landscape';
   buildFloorAndGrid();
   buildBoard();
   resize();
   refreshSelection();
   renderLaneBar();
 
-  canvas.addEventListener(&#x27;pointerdown&#x27;,onPointerDown);
-  canvas.addEventListener(&#x27;pointermove&#x27;,onPointerMove);
-  canvas.addEventListener(&#x27;pointerup&#x27;,onPointerUp);
-  canvas.addEventListener(&#x27;pointercancel&#x27;,onPointerUp);
-  canvas.addEventListener(&#x27;pointerleave&#x27;,()=&gt;setHover(null,false));
-  canvas.addEventListener(&#x27;wheel&#x27;,onWheel,{passive:false});
-  canvas.addEventListener(&#x27;keydown&#x27;,onKeyDown);
-  canvas.addEventListener(&#x27;webglcontextlost&#x27;,ev=&gt;{
+  canvas.addEventListener('pointerdown',onPointerDown);
+  canvas.addEventListener('pointermove',onPointerMove);
+  canvas.addEventListener('pointerup',onPointerUp);
+  canvas.addEventListener('pointercancel',onPointerUp);
+  canvas.addEventListener('pointerleave',()=>setHover(null,false));
+  canvas.addEventListener('wheel',onWheel,{passive:false});
+  canvas.addEventListener('keydown',onKeyDown);
+  canvas.addEventListener('webglcontextlost',ev=>{
     ev.preventDefault();
     contextLost=true;
-    fail(&#x27;Konteks WebGL hilang. Papan ditampilkan dalam mode 2D.&#x27;);
+    fail('Konteks WebGL hilang. Papan ditampilkan dalam mode 2D.');
   });
-  window.addEventListener(&#x27;resize&#x27;,resize);
-  if(window.ResizeObserver)new ResizeObserver(()=&gt;resize()).observe(wrap);
+  window.addEventListener('resize',resize);
+  if(window.ResizeObserver)new ResizeObserver(()=>resize()).observe(wrap);
   loading.hidden=true;
   dirty=true;
   requestAnimationFrame(tick);
@@ -2836,33 +2571,33 @@ function renderFallback(){
   fallbackRendered=true;
   const cols=laneColumns(phase);
   fallback.replaceChildren();
-  LANE_TITLES.forEach((title,i)=&gt;{
-    const lane=document.createElement(&#x27;section&#x27;);
-    lane.className=&#x27;kb-lane&#x27;;
-    const h=document.createElement(&#x27;h3&#x27;);
-    h.textContent=title+&#x27; · &#x27;+cols[i].length;
+  LANE_TITLES.forEach((title,i)=>{
+    const lane=document.createElement('section');
+    lane.className='kb-lane';
+    const h=document.createElement('h3');
+    h.textContent=title+' · '+cols[i].length;
     lane.append(h);
-    const cap=document.createElement(&#x27;div&#x27;);
-    cap.className=&#x27;text-small text-muted&#x27;;
+    const cap=document.createElement('div');
+    cap.className='text-small text-muted';
     cap.textContent=LANE_NOTES[i];
     lane.append(cap);
-    const list=document.createElement(&#x27;div&#x27;);
-    list.className=&#x27;kb-cards&#x27;;
-    cols[i].forEach(id=&gt;{
-      const b=document.createElement(&#x27;button&#x27;);
-      b.type=&#x27;button&#x27;;
-      b.className=&#x27;btn kb-ticket&#x27;+(id===selectedCard?&#x27; btn-primary&#x27;:&#x27;&#x27;);
-      b.setAttribute(&#x27;aria-pressed&#x27;,String(id===selectedCard));
-      const a=document.createElement(&#x27;span&#x27;);
-      a.className=&#x27;kb-id&#x27;;
-      a.textContent=&#x27;US&#x27;+id;
-      const n=document.createElement(&#x27;span&#x27;);
+    const list=document.createElement('div');
+    list.className='kb-cards';
+    cols[i].forEach(id=>{
+      const b=document.createElement('button');
+      b.type='button';
+      b.className='btn kb-ticket'+(id===selectedCard?' btn-primary':'');
+      b.setAttribute('aria-pressed',String(id===selectedCard));
+      const a=document.createElement('span');
+      a.className='kb-id';
+      a.textContent='US'+id;
+      const n=document.createElement('span');
       n.textContent=NAMES[id-1];
-      const sp=document.createElement(&#x27;span&#x27;);
-      sp.className=&#x27;text-small&#x27;;
-      sp.textContent=POINTS[id-1]+&#x27; SP&#x27;;
+      const sp=document.createElement('span');
+      sp.className='text-small';
+      sp.textContent=POINTS[id-1]+' SP';
       b.append(a,n,sp);
-      b.addEventListener(&#x27;click&#x27;,()=&gt;{
+      b.addEventListener('click',()=>{
         selectedCard=id;
         fallbackRendered=false;
         renderFallback();
@@ -2872,9 +2607,9 @@ function renderFallback(){
       list.append(b);
     });
     if(!cols[i].length){
-      const e=document.createElement(&#x27;div&#x27;);
-      e.className=&#x27;kb-empty text-small&#x27;;
-      e.textContent=&#x27;Tidak ada kartu&#x27;;
+      const e=document.createElement('div');
+      e.className='kb-empty text-small';
+      e.textContent='Tidak ada kartu';
       list.append(e);
     }
     lane.append(list);
@@ -2886,13 +2621,15 @@ function fail(message){
   tip.hidden=true;
   wrap.hidden=true;
   fallback.hidden=false;
+  laneBar.hidden=true;
+  root.classList.add('kb-is-fallback');
   resetBtn.disabled=true;
   spinBtn.disabled=true;
-  if(!document.getElementById(&#x27;kb-fallback-note&#x27;)){
-    const note=document.createElement(&#x27;div&#x27;);
-    note.id=&#x27;kb-fallback-note&#x27;;
-    note.className=&#x27;text-small text-muted&#x27;;
-    note.style.marginTop=&#x27;8px&#x27;;
+  if(!document.getElementById('kb-fallback-note')){
+    const note=document.createElement('div');
+    note.id='kb-fallback-note';
+    note.className='text-small text-muted';
+    note.style.marginTop='8px';
     note.textContent=message;
     fallback.after(note);
   }
@@ -2901,25 +2638,26 @@ function fail(message){
 
 /* ---------- phone lane focus ---------- */
 function focusMode(){
-  return !!(three&amp;&amp;scene&amp;&amp;!contextLost&amp;&amp;broadLayout);
+  return !!(three&&scene&&!contextLost&&broadLayout);
 }
 function renderLaneBar(){
   const on=focusMode();
   laneBar.hidden=!on;
   if(!on){laneBar.replaceChildren();return;}
   const cols=laneColumns(phase);
-  laneBar.replaceChildren(...LANE_TITLES.map((title,i)=&gt;{
-    const b=document.createElement(&#x27;button&#x27;);
-    b.type=&#x27;button&#x27;;
-    b.className=&#x27;btn&#x27;+(i===activeLane?&#x27; btn-primary&#x27;:&#x27;&#x27;);
-    b.setAttribute(&#x27;role&#x27;,&#x27;tab&#x27;);
-    b.setAttribute(&#x27;aria-selected&#x27;,String(i===activeLane));
-    b.textContent=title+&#x27; (&#x27;+cols[i].length+&#x27;)&#x27;;
-    b.addEventListener(&#x27;click&#x27;,()=&gt;{
+  laneBar.replaceChildren(...LANE_TITLES.map((title,i)=>{
+    const b=document.createElement('button');
+    b.type='button';
+    b.className='btn'+(i===activeLane?' btn-primary':'');
+    b.setAttribute('role','tab');
+    b.setAttribute('aria-selected',String(i===activeLane));
+    b.textContent=title+' ('+cols[i].length+')';
+    b.addEventListener('click',()=>{
+      targets.zoom=current.zoom=1;
       activeLane=i;
-      if(three&amp;&amp;renderer&amp;&amp;!contextLost){buildBoard();refreshSelection();}
+      if(three&&renderer&&!contextLost){buildBoard();refreshSelection();}
       renderLaneBar();
-      live.textContent=&#x27;Kolom &#x27;+title+&#x27;, &#x27;+cols[i].length+&#x27; kartu.&#x27;;
+      live.textContent='Kolom '+title+', '+cols[i].length+' kartu.';
       save();
       dirty=true;
     });
@@ -2927,17 +2665,18 @@ function renderLaneBar(){
   }));
 }
 function setActiveLane(i){
-  if(i&lt;0||i&gt;3||i===activeLane)return;
+  if(i<0||i>3||i===activeLane)return;
   activeLane=i;
-  if(three&amp;&amp;renderer&amp;&amp;!contextLost){buildBoard();refreshSelection();}
+  targets.zoom=current.zoom=1;
+  if(three&&renderer&&!contextLost){buildBoard();refreshSelection();}
   renderLaneBar();
   dirty=true;
 }
 
 /* ---------- UI wiring ---------- */
-phaseSel.addEventListener(&#x27;change&#x27;,()=&gt;{
+phaseSel.addEventListener('change',()=>{
   phase=Number(phaseSel.value)||0;
-  if(three&amp;&amp;renderer&amp;&amp;!contextLost){
+  if(three&&renderer&&!contextLost){
     buildBoard();
     refreshSelection();
     renderLaneBar();
@@ -2949,29 +2688,29 @@ phaseSel.addEventListener(&#x27;change&#x27;,()=&gt;{
   dirty=true;
   save();
 });
-elevInput.addEventListener(&#x27;input&#x27;,()=&gt;{
-  elevValue.textContent=elevInput.value+&#x27;°&#x27;;
+elevInput.addEventListener('input',()=>{
+  elevValue.textContent=elevInput.value+'°';
   targets.phi=(Math.PI/2)-(Number(elevInput.value)*Math.PI/180);
   lastElevSync=Number(elevInput.value);
   dirty=true;
 });
-elevInput.addEventListener(&#x27;change&#x27;,save);
-resetBtn.addEventListener(&#x27;click&#x27;,()=&gt;{
+elevInput.addEventListener('change',save);
+resetBtn.addEventListener('click',()=>{
   targets.theta=-0.24;
   targets.phi=defaultPhi();
   lastElevSync=Number(elevInput.value);
   targets.zoom=1;
   dirty=true;
 });
-spinBtn.addEventListener(&#x27;click&#x27;,()=&gt;{
+spinBtn.addEventListener('click',()=>{
   spin=!spin;
-  spinBtn.setAttribute(&#x27;aria-pressed&#x27;,String(spin));
+  spinBtn.setAttribute('aria-pressed',String(spin));
   dirty=true;
 });
 function reTheme(){
   PAL=palette();
   colorCache.clear();
-  if(three&amp;&amp;renderer&amp;&amp;scene&amp;&amp;!contextLost){
+  if(three&&renderer&&scene&&!contextLost){
     applyLightColors();
     buildFloorAndGrid();
     buildBoard();
@@ -2985,43 +2724,43 @@ function reTheme(){
 (function watchTheme(){
   if(window.MutationObserver){
     let queued=false;
-    new MutationObserver(()=&gt;{
+    new MutationObserver(()=>{
       if(queued)return;
       queued=true;
-      setTimeout(()=&gt;{queued=false;reTheme();},100);
-    }).observe(document.documentElement,{attributes:true,attributeFilter:[&#x27;data-theme&#x27;,&#x27;class&#x27;,&#x27;style&#x27;]});
+      setTimeout(()=>{queued=false;reTheme();},100);
+    }).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme','class','style']});
   }
-  const mq=window.matchMedia(&#x27;(prefers-color-scheme: dark)&#x27;);
-  if(mq.addEventListener)mq.addEventListener(&#x27;change&#x27;,reTheme);
+  const mq=window.matchMedia('(prefers-color-scheme: dark)');
+  if(mq.addEventListener)mq.addEventListener('change',reTheme);
   else if(mq.addListener)mq.addListener(reTheme);
 })();
 
 updateDetail();
 
 function restore(state){
-  const p=state&amp;&amp;state.privateContent;
+  const p=state&&state.privateContent;
   if(p){
-    if([0,1,2].indexOf(Number(p.phase))&gt;=0){
+    if([0,1,2].indexOf(Number(p.phase))>=0){
       phase=Number(p.phase);
       phaseSel.value=String(phase);
     }
-    if(Number(p.chosen)&gt;=1&amp;&amp;Number(p.chosen)&lt;=10)selectedCard=Number(p.chosen);
+    if(Number(p.chosen)>=1&&Number(p.chosen)<=10)selectedCard=Number(p.chosen);
     if(Number.isFinite(Number(p.elev))){
       const v=Math.max(4,Math.min(70,Number(p.elev)));
       elevInput.value=String(v);
-      elevValue.textContent=v+&#x27;°&#x27;;
+      elevValue.textContent=v+'°';
       targets.phi=(Math.PI/2)-(v*Math.PI/180);
       lastElevSync=v;
     }
   }
 }
-window.addEventListener(&#x27;openai:set_globals&#x27;,e=&gt;{
-  const g=e&amp;&amp;e.detail&amp;&amp;e.detail.globals;
-  if(g&amp;&amp;g.widgetState){
+window.addEventListener('openai:set_globals',e=>{
+  const g=e&&e.detail&&e.detail.globals;
+  if(g&&g.widgetState){
     const sig=stateSignature(g.widgetState);
-    if(sig!==null&amp;&amp;sig===lastSaved)return;
+    if(sig!==null&&sig===lastSaved)return;
     restore(g.widgetState);
-    if(three&amp;&amp;renderer&amp;&amp;scene&amp;&amp;!contextLost){
+    if(three&&renderer&&scene&&!contextLost){
       buildBoard();
       refreshSelection();
     }else{
@@ -3031,39 +2770,39 @@ window.addEventListener(&#x27;openai:set_globals&#x27;,e=&gt;{
     dirty=true;
   }
 });
-restore(window.openai&amp;&amp;window.openai.widgetState);
+restore(window.openai&&window.openai.widgetState);
 
 /* ---------- boot ---------- */
 if(!webglAvailable()){
-  fail(&#x27;WebGL tidak tersedia. Papan ditampilkan dalam mode 2D.&#x27;);
+  fail('WebGL tidak tersedia. Papan ditampilkan dalam mode 2D.');
 }else{
-  loadThree().then(T=&gt;{
+  loadThree().then(T=>{
     try{
       initThree(T);
     }catch(err){
-      fail(&#x27;Three.js gagal dijalankan. Papan ditampilkan dalam mode 2D.&#x27;);
+      fail('Three.js gagal dijalankan. Papan ditampilkan dalam mode 2D.');
     }
-  }).catch(()=&gt;{
-    fail(&#x27;Gagal memuat Three.js (jaringan/CSP). Papan ditampilkan dalam mode 2D.&#x27;);
+  }).catch(()=>{
+    fail('Gagal memuat Three.js (jaringan/CSP). Papan ditampilkan dalam mode 2D.');
   });
-  setTimeout(()=&gt;{
-    if(!three&amp;&amp;!contextLost&amp;&amp;fallback.hidden)fail(&#x27;Three.js lambat dimuat. Papan ditampilkan dalam mode 2D.&#x27;);
+  setTimeout(()=>{
+    if(!three&&!contextLost&&fallback.hidden)fail('Three.js lambat dimuat. Papan ditampilkan dalam mode 2D.');
   },8000);
 }
 })();
-&lt;/script&gt;
-&lt;style id=&quot;codex-visualization-document-scrollbar&quot;&gt;html,body{scrollbar-width:none!important}html::-webkit-scrollbar,body::-webkit-scrollbar{display:none!important}&lt;/style&gt;
+</script>
+<style id="codex-visualization-document-scrollbar">html,body{scrollbar-width:none!important}html::-webkit-scrollbar,body::-webkit-scrollbar{display:none!important}</style>
 
-&lt;script src=&quot;https://unpkg.com/@floating-ui/core@1.7.3/dist/floating-ui.core.umd.min.js&quot;&gt;&lt;/script&gt;
-&lt;script src=&quot;https://unpkg.com/@floating-ui/dom@1.7.4/dist/floating-ui.dom.umd.min.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;
-(() =&gt; {
+<script src="https://unpkg.com/@floating-ui/core@1.7.3/dist/floating-ui.core.umd.min.js"></script>
+<script src="https://unpkg.com/@floating-ui/dom@1.7.4/dist/floating-ui.dom.umd.min.js"></script>
+<script>
+(() => {
   if (window.FloatingUIDOM == null) {
     return;
   }
   const { autoUpdate, computePosition, flip, offset, shift, size } =
     window.FloatingUIDOM;
-  const tooltipPlacements = new Set([&quot;top&quot;, &quot;right&quot;, &quot;bottom&quot;, &quot;left&quot;]);
+  const tooltipPlacements = new Set(["top", "right", "bottom", "left"]);
   const tooltipId = `codex-visualization-tooltip-${
     window.crypto?.randomUUID?.() ?? Date.now().toString(36)
   }`;
@@ -3080,35 +2819,35 @@ if(!webglAvailable()){
   let lastPointerWasTouch = false;
   let pinnedByTouch = false;
 
-  const getTrigger = (event) =&gt; {
+  const getTrigger = (event) => {
     for (const target of event.composedPath()) {
       if (target?.nodeType === Node.ELEMENT_NODE) {
-        const trigger = target.closest(&quot;[data-tooltip]&quot;);
+        const trigger = target.closest("[data-tooltip]");
         if (trigger) return trigger;
       }
     }
     return null;
   };
-  const containsTarget = (trigger, target) =&gt;
-    target?.nodeType != null &amp;&amp; trigger.contains(target);
-  const getContent = (trigger) =&gt;
-    trigger.getAttribute(&quot;data-tooltip&quot;)?.trim() ?? &quot;&quot;;
-  const getPlacement = (trigger) =&gt; {
-    const placement = trigger.getAttribute(&quot;data-tooltip-placement&quot;);
-    return tooltipPlacements.has(placement) ? placement : &quot;top&quot;;
+  const containsTarget = (trigger, target) =>
+    target?.nodeType != null && trigger.contains(target);
+  const getContent = (trigger) =>
+    trigger.getAttribute("data-tooltip")?.trim() ?? "";
+  const getPlacement = (trigger) => {
+    const placement = trigger.getAttribute("data-tooltip-placement");
+    return tooltipPlacements.has(placement) ? placement : "top";
   };
-  const getTooltip = () =&gt; {
+  const getTooltip = () => {
     if (tooltip == null) {
-      tooltip = document.createElement(&quot;div&quot;);
+      tooltip = document.createElement("div");
       tooltip.id = tooltipId;
-      tooltip.className = &quot;tooltip&quot;;
-      tooltip.setAttribute(&quot;role&quot;, &quot;tooltip&quot;);
+      tooltip.className = "tooltip";
+      tooltip.setAttribute("role", "tooltip");
     }
     return tooltip;
   };
-  const setDescribedBy = (trigger, described) =&gt; {
+  const setDescribedBy = (trigger, described) => {
     const ids = new Set(
-      (trigger.getAttribute(&quot;aria-describedby&quot;) ?? &quot;&quot;)
+      (trigger.getAttribute("aria-describedby") ?? "")
         .split(/\s+/)
         .filter(Boolean),
     );
@@ -3118,19 +2857,19 @@ if(!webglAvailable()){
       ids.delete(tooltipId);
     }
     if (ids.size === 0) {
-      trigger.removeAttribute(&quot;aria-describedby&quot;);
+      trigger.removeAttribute("aria-describedby");
     } else {
-      trigger.setAttribute(&quot;aria-describedby&quot;, [...ids].join(&quot; &quot;));
+      trigger.setAttribute("aria-describedby", [...ids].join(" "));
     }
   };
-  const clearOpenTimeout = () =&gt; {
+  const clearOpenTimeout = () => {
     if (openTimeout != null) {
       window.clearTimeout(openTimeout);
       openTimeout = null;
     }
     pendingTrigger = null;
   };
-  const closeTooltip = (activateSkipDelay = true) =&gt; {
+  const closeTooltip = (activateSkipDelay = true) => {
     clearOpenTimeout();
     pinnedByTouch = false;
     positionRequest += 1;
@@ -3146,7 +2885,7 @@ if(!webglAvailable()){
       skipDelayUntil = Date.now() + skipDelay;
     }
   };
-  const updatePosition = (trigger, floating) =&gt; {
+  const updatePosition = (trigger, floating) => {
     const request = ++positionRequest;
     void computePosition(trigger, floating, {
       middleware: [
@@ -3157,34 +2896,34 @@ if(!webglAvailable()){
           padding: tooltipGap,
           apply({ availableHeight, availableWidth, elements }) {
             elements.floating.style.setProperty(
-              &quot;--tooltip-available-width&quot;,
+              "--tooltip-available-width",
               `${Math.max(0, availableWidth)}px`,
             );
             elements.floating.style.setProperty(
-              &quot;--tooltip-available-height&quot;,
+              "--tooltip-available-height",
               `${Math.max(0, availableHeight)}px`,
             );
           },
         }),
       ],
       placement: getPlacement(trigger),
-      strategy: &quot;fixed&quot;,
+      strategy: "fixed",
     })
-      .then(({ x, y }) =&gt; {
+      .then(({ x, y }) => {
         if (activeTrigger !== trigger || request !== positionRequest) {
           return;
         }
         const scale = window.devicePixelRatio || 1;
         floating.style.transform = `translate(${Math.round(x * scale) / scale}px, ${Math.round(y * scale) / scale}px)`;
-        floating.style.visibility = &quot;visible&quot;;
+        floating.style.visibility = "visible";
       })
-      .catch(() =&gt; {
-        if (activeTrigger === trigger &amp;&amp; request === positionRequest) {
+      .catch(() => {
+        if (activeTrigger === trigger && request === positionRequest) {
           closeTooltip(false);
         }
       });
   };
-  const openTooltip = (trigger) =&gt; {
+  const openTooltip = (trigger) => {
     const content = getContent(trigger);
     if (!trigger.isConnected || content.length === 0) {
       return;
@@ -3196,16 +2935,16 @@ if(!webglAvailable()){
     closeTooltip();
     const floating = getTooltip();
     floating.textContent = content;
-    floating.style.visibility = &quot;hidden&quot;;
-    floating.style.transform = &quot;translate(0, 0)&quot;;
+    floating.style.visibility = "hidden";
+    floating.style.transform = "translate(0, 0)";
     document.body.appendChild(floating);
     activeTrigger = trigger;
     setDescribedBy(trigger, true);
-    autoUpdateCleanup = autoUpdate(trigger, floating, () =&gt; {
+    autoUpdateCleanup = autoUpdate(trigger, floating, () => {
       updatePosition(trigger, floating);
     });
   };
-  const requestOpen = (trigger, immediate = false) =&gt; {
+  const requestOpen = (trigger, immediate = false) => {
     if (
       getContent(trigger).length === 0 ||
       activeTrigger === trigger ||
@@ -3216,21 +2955,21 @@ if(!webglAvailable()){
     clearOpenTimeout();
     pendingTrigger = trigger;
     const delay =
-      immediate || activeTrigger != null || Date.now() &lt; skipDelayUntil
+      immediate || activeTrigger != null || Date.now() < skipDelayUntil
         ? 0
         : hoverDelay;
     if (delay === 0) {
       openTooltip(trigger);
       return;
     }
-    openTimeout = window.setTimeout(() =&gt; {
+    openTimeout = window.setTimeout(() => {
       openTimeout = null;
       pendingTrigger = null;
       openTooltip(trigger);
     }, delay);
   };
-  const handlePointerOpen = (event) =&gt; {
-    if (event.pointerType === &quot;touch&quot;) {
+  const handlePointerOpen = (event) => {
+    if (event.pointerType === "touch") {
       return;
     }
     const trigger = getTrigger(event);
@@ -3239,12 +2978,12 @@ if(!webglAvailable()){
     }
     requestOpen(trigger);
   };
-  const handlePointer = (event) =&gt; {
+  const handlePointer = (event) => {
     lastPointerWasTouch =
-      event.type === &quot;pointerdown&quot; &amp;&amp; event.pointerType === &quot;touch&quot;;
+      event.type === "pointerdown" && event.pointerType === "touch";
   };
-  const handleTouchClick = (event) =&gt; {
-    const isTouch = event.pointerType === &quot;touch&quot; || lastPointerWasTouch;
+  const handleTouchClick = (event) => {
+    const isTouch = event.pointerType === "touch" || lastPointerWasTouch;
     lastPointerWasTouch = false;
     if (!isTouch || event.detail === 0) {
       return;
@@ -3254,7 +2993,7 @@ if(!webglAvailable()){
       trigger == null ||
       !trigger.isConnected ||
       getContent(trigger).length === 0 ||
-      (pinnedByTouch &amp;&amp; activeTrigger === trigger)
+      (pinnedByTouch && activeTrigger === trigger)
     ) {
       if (pinnedByTouch) {
         closeTooltip();
@@ -3263,13 +3002,13 @@ if(!webglAvailable()){
     }
     openTooltip(trigger);
     pinnedByTouch = activeTrigger === trigger;
-    window.setTimeout(() =&gt; {
-      if (activeTrigger === trigger &amp;&amp; !trigger.isConnected) {
+    window.setTimeout(() => {
+      if (activeTrigger === trigger && !trigger.isConnected) {
         closeTooltip(false);
       }
     }, 0);
   };
-  const handleLeave = (event) =&gt; {
+  const handleLeave = (event) => {
     if (pinnedByTouch) {
       return;
     }
@@ -3281,18 +3020,18 @@ if(!webglAvailable()){
       closeTooltip();
     }
   };
-  const handleFocusIn = (event) =&gt; {
+  const handleFocusIn = (event) => {
     const trigger = getTrigger(event);
-    if (trigger?.matches(&quot;:focus-visible&quot;)) {
+    if (trigger?.matches(":focus-visible")) {
       requestOpen(trigger, true);
     }
   };
-  const handleKeyDown = (event) =&gt; {
-    if (event.key === &quot;Escape&quot;) {
+  const handleKeyDown = (event) => {
+    if (event.key === "Escape") {
       closeTooltip();
     }
   };
-  const handleContextMenu = (event) =&gt; {
+  const handleContextMenu = (event) => {
     lastPointerWasTouch = false;
     const trigger = getTrigger(event);
     if (activeTrigger === trigger || pendingTrigger === trigger) {
@@ -3312,42 +3051,42 @@ if(!webglAvailable()){
   };
   const roots = new Map();
   const handledEvents = new WeakSet();
-  const handleEvent = (event) =&gt; {
+  const handleEvent = (event) => {
     if (handledEvents.has(event)) return;
     handledEvents.add(event);
     handlers[event.type](event);
   };
-  const discoverRoots = (node) =&gt; {
+  const discoverRoots = (node) => {
     if (node.shadowRoot) listen(node.shadowRoot);
-    for (const element of node.querySelectorAll(&quot;*&quot;)) {
+    for (const element of node.querySelectorAll("*")) {
       if (element.shadowRoot) listen(element.shadowRoot);
     }
   };
-  const listen = (root) =&gt; {
+  const listen = (root) => {
     if (roots.has(root)) return;
     for (const type of Object.keys(handlers)) root.addEventListener(type, handleEvent);
-    const observer = new window.MutationObserver((records) =&gt; {
+    const observer = new window.MutationObserver((records) => {
       for (const { addedNodes } of records) {
         for (const node of addedNodes) {
           if (node.nodeType === Node.ELEMENT_NODE) discoverRoots(node);
         }
       }
       for (const [root, cleanup] of roots) {
-        if (root.host &amp;&amp; !root.host.isConnected) {
+        if (root.host && !root.host.isConnected) {
           cleanup();
           roots.delete(root);
         }
       }
-      if (activeTrigger &amp;&amp; !activeTrigger.isConnected) closeTooltip(false);
+      if (activeTrigger && !activeTrigger.isConnected) closeTooltip(false);
     });
     observer.observe(root, { childList: true, subtree: true });
-    roots.set(root, () =&gt; {
+    roots.set(root, () => {
       observer.disconnect();
       for (const type of Object.keys(handlers)) root.removeEventListener(type, handleEvent);
     });
     discoverRoots(root);
   };
-  const destroy = () =&gt; {
+  const destroy = () => {
     closeTooltip(false);
     lastPointerWasTouch = false;
     for (const cleanup of roots.values()) cleanup();
@@ -3357,50 +3096,50 @@ if(!webglAvailable()){
 
   // Events between children of one shadow root never reach the document.
   listen(document);
-  window.addEventListener(&quot;pagehide&quot;, destroy, { once: true });
+  window.addEventListener("pagehide", destroy, { once: true });
 })();
-&lt;/script&gt;
-&lt;script id=&quot;codex-visualization-tabs&quot;&gt;
-(() =&gt; {
-  const selector = &#x27;.nav[role=&quot;tablist&quot;] [role=&quot;tab&quot;]&#x27;;
-  const disabled = &#x27;:disabled,[aria-disabled=&quot;true&quot;]&#x27;;
-  const selectTab = (selected) =&gt; {
-    const panelId = selected.getAttribute(&quot;aria-controls&quot;);
-    for (const tab of selected.closest(&#x27;[role=&quot;tablist&quot;]&#x27;).querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;)) {
+</script>
+<script id="codex-visualization-tabs">
+(() => {
+  const selector = '.nav[role="tablist"] [role="tab"]';
+  const disabled = ':disabled,[aria-disabled="true"]';
+  const selectTab = (selected) => {
+    const panelId = selected.getAttribute("aria-controls");
+    for (const tab of selected.closest('[role="tablist"]').querySelectorAll('[role="tab"]')) {
       const active = tab === selected;
-      tab.classList.toggle(&quot;active&quot;, active);
-      tab.setAttribute(&quot;aria-selected&quot;, String(active));
-      const id = tab.getAttribute(&quot;aria-controls&quot;);
-      const panel = id &amp;&amp; document.getElementById(id);
+      tab.classList.toggle("active", active);
+      tab.setAttribute("aria-selected", String(active));
+      const id = tab.getAttribute("aria-controls");
+      const panel = id && document.getElementById(id);
       if (panel != null) {
         panel.hidden = id !== panelId;
-        if (!panel.hidden &amp;&amp; selected.id) {
-          panel.setAttribute(&quot;aria-labelledby&quot;, selected.id);
+        if (!panel.hidden && selected.id) {
+          panel.setAttribute("aria-labelledby", selected.id);
         }
       }
     }
   };
-  const interact = (event) =&gt; {
+  const interact = (event) => {
     const tab = event.target?.closest?.(selector);
     if (event.defaultPrevented || tab == null || tab.matches(disabled)) {
       return;
     }
-    if (event.type === &quot;click&quot;) {
+    if (event.type === "click") {
       selectTab(tab);
       return;
     }
     const tabs = Array.from(
-      tab.closest(&#x27;[role=&quot;tablist&quot;]&#x27;).querySelectorAll(&#x27;[role=&quot;tab&quot;]&#x27;),
-    ).filter((candidate) =&gt; !candidate.matches(disabled));
+      tab.closest('[role="tablist"]').querySelectorAll('[role="tab"]'),
+    ).filter((candidate) => !candidate.matches(disabled));
     const current = tabs.indexOf(tab);
     let next;
-    if (event.key === &quot;ArrowRight&quot; || event.key === &quot;ArrowDown&quot;) {
+    if (event.key === "ArrowRight" || event.key === "ArrowDown") {
       next = (current + 1) % tabs.length;
-    } else if (event.key === &quot;ArrowLeft&quot; || event.key === &quot;ArrowUp&quot;) {
+    } else if (event.key === "ArrowLeft" || event.key === "ArrowUp") {
       next = (current + tabs.length - 1) % tabs.length;
-    } else if (event.key === &quot;Home&quot;) {
+    } else if (event.key === "Home") {
       next = 0;
-    } else if (event.key === &quot;End&quot;) {
+    } else if (event.key === "End") {
       next = tabs.length - 1;
     } else {
       return;
@@ -3410,38 +3149,38 @@ if(!webglAvailable()){
     selectTab(tabs[next]);
   };
 
-  for (const list of document.querySelectorAll(&#x27;.nav[role=&quot;tablist&quot;]&#x27;)) {
+  for (const list of document.querySelectorAll('.nav[role="tablist"]')) {
     const selected =
-      list.querySelector(&#x27;[role=&quot;tab&quot;][aria-selected=&quot;true&quot;]&#x27;) ??
-      list.querySelector(&#x27;[role=&quot;tab&quot;].active&#x27;) ??
-      list.querySelector(&#x27;[role=&quot;tab&quot;]&#x27;);
+      list.querySelector('[role="tab"][aria-selected="true"]') ??
+      list.querySelector('[role="tab"].active') ??
+      list.querySelector('[role="tab"]');
     if (selected != null) {
       selectTab(selected);
     }
   }
-  document.addEventListener(&quot;click&quot;, interact);
-  document.addEventListener(&quot;keydown&quot;, interact);
-  window.addEventListener(&quot;pagehide&quot;, () =&gt; {
-    document.removeEventListener(&quot;click&quot;, interact);
-    document.removeEventListener(&quot;keydown&quot;, interact);
+  document.addEventListener("click", interact);
+  document.addEventListener("keydown", interact);
+  window.addEventListener("pagehide", () => {
+    document.removeEventListener("click", interact);
+    document.removeEventListener("keydown", interact);
   }, { once: true });
 })();
-&lt;/script&gt;
-&lt;script id=&quot;codex-visualization-carousel&quot;&gt;
-  (() =&gt; {
-    for (const root of document.querySelectorAll(&quot;.viz-carousel&quot;)) {
+</script>
+<script id="codex-visualization-carousel">
+  (() => {
+    for (const root of document.querySelectorAll(".viz-carousel")) {
       const panels = Array.from(
-        root.querySelectorAll(&quot;:scope &gt; [data-variant]&quot;),
+        root.querySelectorAll(":scope > [data-variant]"),
       );
       if (panels.length === 0) {
         continue;
       }
-      root.setAttribute(&quot;role&quot;, &quot;group&quot;);
-      panels.forEach((panel, index) =&gt; {
+      root.setAttribute("role", "group");
+      panels.forEach((panel, index) => {
         panel.hidden = index !== 0;
-        panel.setAttribute(&quot;role&quot;, &quot;group&quot;);
-        if (!panel.hasAttribute(&quot;aria-label&quot;)) {
-          panel.setAttribute(&quot;aria-label&quot;, panel.dataset.variant);
+        panel.setAttribute("role", "group");
+        if (!panel.hasAttribute("aria-label")) {
+          panel.setAttribute("aria-label", panel.dataset.variant);
         }
       });
       root.dataset.activeVariant = panels[0].dataset.variant;
@@ -3449,47 +3188,47 @@ if(!webglAvailable()){
         continue;
       }
 
-      const controls = document.createElement(&quot;div&quot;);
-      controls.className = &quot;viz-carousel-controls&quot;;
-      // Portable copy of the settings dropdown&#x27;s legacy glyph; no 14px icon-package preset matches it.
+      const controls = document.createElement("div");
+      controls.className = "viz-carousel-controls";
+      // Portable copy of the settings dropdown's legacy glyph; no 14px icon-package preset matches it.
       // https://github.com/openai/openai/blob/master/codex/codex-apps/webview/src/icons/chevron.svg
       controls.innerHTML = `
-      &lt;button type=&quot;button&quot; class=&quot;viz-carousel-previous cursor-interaction&quot;&gt;&lt;i data-lucide=&quot;chevron-left&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/button&gt;
-      &lt;details class=&quot;viz-carousel-picker&quot;&gt;
-        &lt;summary class=&quot;cursor-interaction&quot;&gt;
-          &lt;span class=&quot;viz-carousel-count tabular-nums&quot;&gt;&lt;/span&gt;
-          &lt;span class=&quot;viz-carousel-name&quot;&gt;&lt;/span&gt;
-          &lt;svg class=&quot;viz-carousel-caret&quot; width=&quot;14&quot; height=&quot;14&quot; viewBox=&quot;0 0 20 21&quot; fill=&quot;none&quot; aria-hidden=&quot;true&quot; focusable=&quot;false&quot;&gt;
-            &lt;path d=&quot;M15.2793 7.71101C15.539 7.45131 15.961 7.45131 16.2207 7.71101C16.4804 7.97071 16.4804 8.39272 16.2207 8.65242L10.4707 14.4024C10.211 14.6621 9.78902 14.6621 9.52932 14.4024L3.77932 8.65242L3.69436 8.54792C3.52385 8.28979 3.55205 7.93828 3.77932 7.71101C4.00659 7.48374 4.3581 7.45554 4.61623 7.62605L4.72073 7.71101L10 12.9903L15.2793 7.71101Z&quot; fill=&quot;currentColor&quot; stroke=&quot;currentColor&quot; stroke-width=&quot;0.6&quot; /&gt;
-          &lt;/svg&gt;
-        &lt;/summary&gt;
-        &lt;div class=&quot;viz-carousel-options&quot;&gt;&lt;/div&gt;
-      &lt;/details&gt;
-      &lt;button type=&quot;button&quot; class=&quot;viz-carousel-next cursor-interaction&quot;&gt;&lt;i data-lucide=&quot;chevron-right&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&lt;/button&gt;`;
-      const previous = controls.querySelector(&quot;.viz-carousel-previous&quot;);
-      const next = controls.querySelector(&quot;.viz-carousel-next&quot;);
-      const picker = controls.querySelector(&quot;.viz-carousel-picker&quot;);
-      const summary = picker.querySelector(&quot;summary&quot;);
-      const count = controls.querySelector(&quot;.viz-carousel-count&quot;);
-      const name = controls.querySelector(&quot;.viz-carousel-name&quot;);
-      const options = controls.querySelector(&quot;.viz-carousel-options&quot;);
-      const status = document.createElement(&quot;span&quot;);
-      status.className = &quot;sr-only&quot;;
-      status.setAttribute(&quot;role&quot;, &quot;status&quot;);
-      status.setAttribute(&quot;aria-live&quot;, &quot;polite&quot;);
-      status.setAttribute(&quot;aria-atomic&quot;, &quot;true&quot;);
+      <button type="button" class="viz-carousel-previous cursor-interaction"><i data-lucide="chevron-left" aria-hidden="true"></i></button>
+      <details class="viz-carousel-picker">
+        <summary class="cursor-interaction">
+          <span class="viz-carousel-count tabular-nums"></span>
+          <span class="viz-carousel-name"></span>
+          <svg class="viz-carousel-caret" width="14" height="14" viewBox="0 0 20 21" fill="none" aria-hidden="true" focusable="false">
+            <path d="M15.2793 7.71101C15.539 7.45131 15.961 7.45131 16.2207 7.71101C16.4804 7.97071 16.4804 8.39272 16.2207 8.65242L10.4707 14.4024C10.211 14.6621 9.78902 14.6621 9.52932 14.4024L3.77932 8.65242L3.69436 8.54792C3.52385 8.28979 3.55205 7.93828 3.77932 7.71101C4.00659 7.48374 4.3581 7.45554 4.61623 7.62605L4.72073 7.71101L10 12.9903L15.2793 7.71101Z" fill="currentColor" stroke="currentColor" stroke-width="0.6" />
+          </svg>
+        </summary>
+        <div class="viz-carousel-options"></div>
+      </details>
+      <button type="button" class="viz-carousel-next cursor-interaction"><i data-lucide="chevron-right" aria-hidden="true"></i></button>`;
+      const previous = controls.querySelector(".viz-carousel-previous");
+      const next = controls.querySelector(".viz-carousel-next");
+      const picker = controls.querySelector(".viz-carousel-picker");
+      const summary = picker.querySelector("summary");
+      const count = controls.querySelector(".viz-carousel-count");
+      const name = controls.querySelector(".viz-carousel-name");
+      const options = controls.querySelector(".viz-carousel-options");
+      const status = document.createElement("span");
+      status.className = "sr-only";
+      status.setAttribute("role", "status");
+      status.setAttribute("aria-live", "polite");
+      status.setAttribute("aria-atomic", "true");
       previous.setAttribute(
-        &quot;aria-label&quot;,
-        root.dataset.previousLabel ?? &quot;Previous variant&quot;,
+        "aria-label",
+        root.dataset.previousLabel ?? "Previous variant",
       );
-      next.setAttribute(&quot;aria-label&quot;, root.dataset.nextLabel ?? &quot;Next variant&quot;);
+      next.setAttribute("aria-label", root.dataset.nextLabel ?? "Next variant");
 
       let active = 0;
       let mousePointerId = null;
       let summaryPointerHandled = false;
-      summary.addEventListener(&quot;pointerdown&quot;, (event) =&gt; {
+      summary.addEventListener("pointerdown", (event) => {
         summaryPointerHandled =
-          event.pointerType === &quot;mouse&quot; &amp;&amp; event.button === 0 &amp;&amp; !event.ctrlKey;
+          event.pointerType === "mouse" && event.button === 0 && !event.ctrlKey;
         if (!summaryPointerHandled) {
           return;
         }
@@ -3498,25 +3237,25 @@ if(!webglAvailable()){
         picker.open = !picker.open;
         mousePointerId = picker.open ? event.pointerId : null;
       });
-      summary.addEventListener(&quot;click&quot;, (event) =&gt; {
-        if (summaryPointerHandled &amp;&amp; event.detail &gt; 0) {
+      summary.addEventListener("click", (event) => {
+        if (summaryPointerHandled && event.detail > 0) {
           event.preventDefault();
         }
       });
-      const choices = panels.map((panel, index) =&gt; {
-        const choice = document.createElement(&quot;button&quot;);
-        choice.type = &quot;button&quot;;
-        choice.className = &quot;cursor-interaction&quot;;
+      const choices = panels.map((panel, index) => {
+        const choice = document.createElement("button");
+        choice.type = "button";
+        choice.className = "cursor-interaction";
         choice.textContent = panel.dataset.variant;
-        choice.addEventListener(&quot;click&quot;, () =&gt; {
+        choice.addEventListener("click", () => {
           select(index);
           summary.focus();
         });
-        choice.addEventListener(&quot;pointerup&quot;, (event) =&gt; {
+        choice.addEventListener("pointerup", (event) => {
           if (
-            picker.open &amp;&amp;
-            event.pointerType === &quot;mouse&quot; &amp;&amp;
-            event.button === 0 &amp;&amp;
+            picker.open &&
+            event.pointerType === "mouse" &&
+            event.button === 0 &&
             event.pointerId === mousePointerId
           ) {
             choice.click();
@@ -3525,13 +3264,13 @@ if(!webglAvailable()){
         options.appendChild(choice);
         return choice;
       });
-      const select = (index) =&gt; {
+      const select = (index) => {
         const changed = active !== index;
         active = index;
-        panels.forEach((panel, position) =&gt; {
+        panels.forEach((panel, position) => {
           panel.hidden = position !== active;
           choices[position].setAttribute(
-            &quot;aria-current&quot;,
+            "aria-current",
             String(position === active),
           );
         });
@@ -3544,14 +3283,14 @@ if(!webglAvailable()){
           status.textContent = `${count.textContent}: ${name.textContent}`;
         }
       };
-      previous.addEventListener(&quot;click&quot;, () =&gt;
+      previous.addEventListener("click", () =>
         select((active + panels.length - 1) % panels.length),
       );
-      next.addEventListener(&quot;click&quot;, () =&gt;
+      next.addEventListener("click", () =>
         select((active + 1) % panels.length),
       );
-      picker.addEventListener(&quot;keydown&quot;, (event) =&gt; {
-        if (event.key === &quot;Escape&quot; &amp;&amp; picker.open) {
+      picker.addEventListener("keydown", (event) => {
+        if (event.key === "Escape" && picker.open) {
           event.preventDefault();
           picker.open = false;
           mousePointerId = null;
@@ -3563,13 +3302,13 @@ if(!webglAvailable()){
         }
         const index = choices.indexOf(document.activeElement);
         let nextIndex;
-        if (event.key === &quot;ArrowDown&quot;) {
-          nextIndex = index &lt; 0 ? active : (index + 1) % choices.length;
-        } else if (event.key === &quot;ArrowUp&quot;) {
-          nextIndex = index &lt; 0 ? active : (index + choices.length - 1) % choices.length;
-        } else if (picker.open &amp;&amp; event.key === &quot;Home&quot;) {
+        if (event.key === "ArrowDown") {
+          nextIndex = index < 0 ? active : (index + 1) % choices.length;
+        } else if (event.key === "ArrowUp") {
+          nextIndex = index < 0 ? active : (index + choices.length - 1) % choices.length;
+        } else if (picker.open && event.key === "Home") {
           nextIndex = 0;
-        } else if (picker.open &amp;&amp; event.key === &quot;End&quot;) {
+        } else if (picker.open && event.key === "End") {
           nextIndex = choices.length - 1;
         } else {
           return;
@@ -3578,13 +3317,13 @@ if(!webglAvailable()){
         picker.open = true;
         choices[nextIndex].focus();
       });
-      picker.addEventListener(&quot;focusout&quot;, (event) =&gt; {
+      picker.addEventListener("focusout", (event) => {
         if (!picker.contains(event.relatedTarget)) {
           picker.open = false;
           mousePointerId = null;
         }
       });
-      const dismiss = (event) =&gt; {
+      const dismiss = (event) => {
         if (!summary.contains(event.target)) {
           mousePointerId = null;
         }
@@ -3592,29 +3331,29 @@ if(!webglAvailable()){
           picker.open = false;
         }
       };
-      const endPointerSelection = () =&gt; {
+      const endPointerSelection = () => {
         mousePointerId = null;
       };
-      const sizePicker = () =&gt; {
+      const sizePicker = () => {
         root.style.setProperty(
-          &quot;--viz-carousel-picker-height&quot;,
+          "--viz-carousel-picker-height",
           `${picker.open ? options.offsetHeight : 0}px`,
         );
       };
-      picker.addEventListener(&quot;toggle&quot;, sizePicker);
-      window.addEventListener(&quot;resize&quot;, sizePicker);
-      document.addEventListener(&quot;pointerdown&quot;, dismiss);
-      document.addEventListener(&quot;pointerup&quot;, endPointerSelection);
-      document.addEventListener(&quot;pointercancel&quot;, endPointerSelection);
-      window.addEventListener(&quot;blur&quot;, endPointerSelection);
+      picker.addEventListener("toggle", sizePicker);
+      window.addEventListener("resize", sizePicker);
+      document.addEventListener("pointerdown", dismiss);
+      document.addEventListener("pointerup", endPointerSelection);
+      document.addEventListener("pointercancel", endPointerSelection);
+      window.addEventListener("blur", endPointerSelection);
       window.addEventListener(
-        &quot;pagehide&quot;,
-        () =&gt; {
-          document.removeEventListener(&quot;pointerdown&quot;, dismiss);
-          document.removeEventListener(&quot;pointerup&quot;, endPointerSelection);
-          document.removeEventListener(&quot;pointercancel&quot;, endPointerSelection);
-          window.removeEventListener(&quot;blur&quot;, endPointerSelection);
-          window.removeEventListener(&quot;resize&quot;, sizePicker);
+        "pagehide",
+        () => {
+          document.removeEventListener("pointerdown", dismiss);
+          document.removeEventListener("pointerup", endPointerSelection);
+          document.removeEventListener("pointercancel", endPointerSelection);
+          window.removeEventListener("blur", endPointerSelection);
+          window.removeEventListener("resize", sizePicker);
         },
         { once: true },
       );
@@ -3622,11 +3361,11 @@ if(!webglAvailable()){
       select(0);
     }
   })();
-&lt;/script&gt;
-&lt;script id=&quot;codex-visualization-lucide&quot; async src=&quot;https://unpkg.com/lucide@1.17.0/dist/umd/lucide.js&quot;&gt;&lt;/script&gt;
-&lt;script&gt;
-(() =&gt; {
-  const initialize = () =&gt; {
+</script>
+<script id="codex-visualization-lucide" async src="https://unpkg.com/lucide@1.17.0/dist/umd/lucide.js"></script>
+<script>
+(() => {
+  const initialize = () => {
     globalThis.lucide?.createIcons({ attrs: { width: 16, height: 16 } });
   };
   if (globalThis.lucide != null) {
@@ -3634,213 +3373,10 @@ if(!webglAvailable()){
     return;
   }
   document
-    .getElementById(&quot;codex-visualization-lucide&quot;)
-    ?.addEventListener(&quot;load&quot;, initialize, { once: true });
-})();
-&lt;/script&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
-"></iframe>
-
-<script>(() => {
-  const frame = document.getElementById("codex-visualization");
-  if (!(frame instanceof HTMLIFrameElement)) {
-    return;
-  }
-  let viewportHeight = globalThis.innerHeight;
-  const storageKey = `codex:visualization-widget-state-v2:${JSON.stringify([
-    globalThis.location.pathname,
-    globalThis.location.search,
-  ])}`;
-  const parseState = (serializedState) => {
-    if (
-      typeof serializedState !== "string" ||
-      new TextEncoder().encode(serializedState).length > 16 * 1024
-    ) {
-      throw new TypeError(
-        "Widget state must be a JSON object of at most 16 KiB",
-      );
-    }
-    /** @type {unknown} */
-    const state = JSON.parse(serializedState);
-    if (
-      state == null ||
-      typeof state !== "object" ||
-      Array.isArray(state) ||
-      ("imageIds" in state &&
-        (!Array.isArray(state.imageIds) || state.imageIds.length > 0))
-    ) {
-      throw new TypeError("Widget state must be a JSON object");
-    }
-    const storedState = { modelContent: null, privateContent: null, ...state };
-    const canonicalState = JSON.stringify(
-      storedState,
-      (_key, /** @type {unknown} */ value) => {
-        if (typeof value === "number" && !Number.isFinite(value)) {
-          throw new TypeError("Widget state must contain finite numbers");
-        }
-        return value;
-      },
-    );
-    if (new TextEncoder().encode(canonicalState).length > 16 * 1024) {
-      throw new TypeError(
-        "Widget state must be a JSON object of at most 16 KiB",
-      );
-    }
-    return storedState;
-  };
-  let storage = null;
-  let state = null;
-  try {
-    const localStorage = globalThis.localStorage;
-    const probeKey = `${storageKey}:probe`;
-    localStorage.setItem(probeKey, "1");
-    localStorage.removeItem(probeKey);
-    storage = localStorage;
-    const savedState = storage.getItem(storageKey);
-    if (savedState != null) {
-      try {
-        state = parseState(savedState);
-      } catch {
-        // Invalid saved state does not disable future writes.
-      }
-    }
-  } catch {
-    storage = null;
-  }
-  const initialGlobals = {
-    widgetState: state,
-    statePersistence: storage == null ? "none" : "local",
-  };
-
-  const channel = new MessageChannel();
-  channel.port1.addEventListener("message", (event) => {
-    const data = event.data;
-    if (typeof data !== "object" || data == null) {
-      return;
-    }
-    if (data.type === "widget-state-write") {
-      if (!Number.isSafeInteger(data.id) || data.id <= 0) {
-        return;
-      }
-      let ok = false;
-      try {
-        if (storage != null) {
-          const state = parseState(data.state);
-          storage.setItem(storageKey, JSON.stringify(state));
-          ok = true;
-        }
-      } catch {
-        // Storage denial, quota limits, and invalid state return a failed receipt.
-      }
-      channel.port1.postMessage({
-        type: "widget-state-result",
-        id: data.id,
-        ok,
-      });
-      return;
-    }
-    if (data.type === "height") {
-      const height = data.height;
-      if (
-        typeof height === "number" &&
-        Number.isFinite(height) &&
-        height >= 0 &&
-        height <= 10_000
-      ) {
-        frame.style.height = Math.ceil(height) + "px";
-      }
-      return;
-    }
-    if (data.type === "scroll-to") {
-      const top = data.top;
-      if (
-        typeof top === "number" &&
-        Number.isFinite(top) &&
-        top >= 0 &&
-        globalThis.navigator.userActivation?.isActive === true
-      ) {
-        globalThis.scrollTo({
-          top: Math.ceil(
-            globalThis.scrollY + frame.getBoundingClientRect().top + top,
-          ),
-        });
-      }
-      return;
-    }
-    if (data.type === "open-external") {
-      const rawHref = data.href;
-      if (typeof rawHref !== "string") {
-        return;
-      }
-      let href;
-      try {
-        const url = new URL(rawHref, document.baseURI);
-        if (url.protocol !== "https:") {
-          return;
-        }
-        href = url.href;
-      } catch {
-        return;
-      }
-      if (globalThis.navigator.userActivation?.isActive === true) {
-        const anchor = document.createElement("a");
-        anchor.href = href;
-        anchor.rel = "noopener noreferrer";
-        anchor.target = "_blank";
-        document.body.appendChild(anchor);
-        anchor.click();
-        anchor.remove();
-      }
-      return;
-    }
-    if (data.type === "follow-up") {
-      const prompt = data.prompt;
-      if (
-        typeof prompt !== "string" ||
-        globalThis.navigator.userActivation?.isActive !== true
-      ) {
-        return;
-      }
-      const title = data.title;
-      globalThis.prompt(typeof title === "string" ? title : prompt, prompt);
-    }
-  });
-  channel.port1.start();
-  const srcdoc = frame.dataset.srcdoc;
-  if (srcdoc == null) {
-    return;
-  }
-  globalThis.addEventListener("resize", () => {
-    const height = Number.parseFloat(frame.style.height);
-    if (!Number.isFinite(height) || height <= viewportHeight) {
-      frame.style.removeProperty("height");
-    }
-    viewportHeight = globalThis.innerHeight;
-    channel.port1.postMessage({ type: "measure" });
-  });
-  frame.addEventListener(
-    "load",
-    () => {
-      frame.contentWindow?.postMessage(
-        { type: "codex-visualization-initialize" },
-        "*",
-        [channel.port2],
-      );
-    },
-    { once: true },
-  );
-  // Match the trusted bootstrap element, not the same text in an authored title.
-  frame.srcdoc = srcdoc.replace(
-    '<script type="application/json" id="codex-visualization-widget-state">__CODEX_VISUALIZATION_WIDGET_STATE__<\/script>',
-    () =>
-      '<script type="application/json" id="codex-visualization-widget-state">' +
-      JSON.stringify(initialGlobals).replaceAll("<", "\\u003c") +
-      "<\/script>",
-  );
-  delete frame.dataset.srcdoc;
+    .getElementById("codex-visualization-lucide")
+    ?.addEventListener("load", initialize, { once: true });
 })();
 </script>
+
 </body>
 </html>
